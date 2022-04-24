@@ -14,3 +14,7 @@ header {
     text-align: center; 
     padding: 1.5rem;
 }
+
+img {
+    size: 20%;
+}
