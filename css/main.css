@@ -1,16 +1,11 @@
-html {
-    background-color: white;
-}
+@charset 'utf-8';
 
 header {
     display: flex;
     align-items: center;
-    background-color: rgb(75, 17, 17);
-    border-radius: 2em; 
+    background-color: rgb(75, 17, 17); 
     box-shadow: 0px 0px 30px;
     margin-top: 2em; 
-    
-    
 }
 
 
@@ -25,38 +20,34 @@ img {
 
 h1 {
     color: white; 
-    font-size: 40px;
+    font-size: 25px;
     
 }
+
 
 body {
     max-width: 800px;
     margin:auto;
     font-family: 'Barlow', 'sans-serif';
     font-size: 16px;
-    
 }
+
+
 main{
     display: flex;
     flex-direction: column;
-    
     border-radius: 3em;
-
 }
 
-nav {
-    
-}
 
 h2 {
     border-bottom: 1px solid;
-    font-size: 35px;
-    
+    font-size: 20px; 
 }
 
 
 p {
-    font-size: 25px;
+    font-size: 15px;
 }
 
 
@@ -71,7 +62,6 @@ footer{
     background-color: rgb(75, 17, 17);
     margin-top: 2em;
     padding: 25px;
-    border-radius: 2em;
     text-align: center;
     color: white;
     font-size: 20px;
