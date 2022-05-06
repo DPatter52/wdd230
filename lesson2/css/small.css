@@ -1,5 +1,7 @@
 html {
+	min-height: 100%;
 	background-color: #303030;
+
 }
 header {
 	background-color: #6b6b6b;
@@ -34,11 +36,9 @@ body {
 	
 }
 main {
-	max-width: fit-content;
-    margin: 24pt;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+    margin: 24pt;  
 }
 
 main section {
@@ -89,3 +89,6 @@ a:hover {
 	border-color: white;
 	text-decoration: none;
 }
+
+
+
