@@ -96,7 +96,7 @@ h2{
 	margin-right: 0;
 }
 
-.event, .hero, .weather, .join, .news{
+.event, .weather, .join, .news{
 	border: 1px solid;
 	border-color: rgb(196, 196, 196);
 	background-color: rgb(238, 238, 238);
@@ -105,7 +105,9 @@ h2{
 }
 
 .hero{
-    grid-row: 1;
+	background-image: url("chamber/images/westvalleypic_edited.jpg");
+
+	grid-row: 1;
 }
 
 .event{
