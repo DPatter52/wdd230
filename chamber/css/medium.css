@@ -52,20 +52,56 @@
 
 
 	.join{
-		display: grid;
+		display: block;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
 		grid-column: 1/5;
 		grid-row: 4;
+		padding: 3em;
 	}
 
+	.joinBttn {
+		border: 3px solid;
+		border-radius: 25px;
+		border-color: #e44646;
+		background-color: #eeee;
+		font-size: large;
+		font-style: italic;
+		padding: 15px;
+		margin: 1em;
+	}
+
+	.joinDes {
+		font-style: italic;
+		font-size: large;
+		padding-top: 2em;
+		
+	}	
+
 	.event{
+		display: flex;
 		grid-column: 1/3;
 		grid-row: 5;
+	}
+
+	.westfestlogo {
+		padding: 2em;
+	}
+
+	.eventDes {
+		font-size: larger;
 	}
 
 	.weather{
 		grid-column: 3/5;
 		grid-row: 5;
 	}
+	.wvcweather {
+		width: auto;
+		height: auto;
+	}
+
 
 	footer{
 		font-size: 15px;

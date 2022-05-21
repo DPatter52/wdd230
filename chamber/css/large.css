@@ -3,6 +3,13 @@
 	.navigation {
 		display: flex;
 		padding: 0;
+		grid-column: 4;
+		margin: 0 auto;
+		max-width: 760px;
+		background-color: #863b3b;
+		border: 1px solid #863b3b;
+		border-radius: 10px;
+		padding: -1em;
 	}
 
 	.navigation li {
@@ -49,24 +56,62 @@
 	}
 
 	.event{
+		display: block;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
 		grid-column: 1;
 		grid-row: 1;
 	}
+
+	.eventDes {
+		font-size: 16px;
+	}
+
+	.westfestlogo {
+		padding: 0;
+	}
+
+
 	.weather{
 		grid-column: 1;
 		grid-row: 2;
 	}
 	
 	.join{
+		display: block;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
 		grid-column: 1;
 		grid-row: 3;
 	}
 	
+	.joinBttn {
+		padding: 15px;
+		border-color: #e44646;
+    	background-color: #eeee;
+		font-size: x-large;
+	}
+
+	.joinDes{
+		padding: 0;
+		font-size: medium;
+	}
+
 	.news{
 		grid-column: 2/4;
 		grid-row: 3;
 	}
 	
+	.joinchamber {
+		top: 150px;
+		right: 50px;
+		padding: 1.5rem;
+		font-size: x-large;
+		font-weight: bold;
+	}
+
 	.spotlightbox{
 		grid-template-columns: 1fr;
 		grid-column: 4;
