@@ -68,14 +68,26 @@
 		font-size: 16px;
 	}
 
+	.eventTitle{
+		font-size: x-large;
+	}
+
 	.westfestlogo {
-		padding: 0;
+		padding: 10px;
 	}
 
 
 	.weather{
 		grid-column: 1;
 		grid-row: 2;
+	}
+
+	.weatherTitle{
+		font-size: x-large;
+	}
+
+	.wvcweather {
+		width: auto;
 	}
 	
 	.join{
@@ -103,6 +115,10 @@
 		grid-column: 2/4;
 		grid-row: 3;
 	}
+
+	.newsTitle1{
+		font-size: x-large;
+	}
 	
 	.joinchamber {
 		top: 150px;
@@ -118,8 +134,21 @@
 		grid-row: 1/4;	
 	}
 
+	.spotlight1, .spotlight2, .spotlight3{
+		width: auto;
+		height: 250px;
+	}
+
 	.spotlightbox div:nth-child(3){
 		display: block;
+	}
+
+	.spot1Des{
+		width: min-content;
+	}
+
+	.webdev{
+		padding:20px;
 	}
 
 	footer{

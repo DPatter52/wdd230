@@ -50,6 +50,18 @@
 		grid-row: 3;
 	}
 
+	.spotlight1, .spotlight2{
+		width: auto;
+		height: 180px;
+	}
+
+	.spot1Des{
+		width: 180px;
+	}
+
+	.webdev{
+		padding: 0;
+	}
 
 	.join{
 		display: block;
@@ -86,7 +98,7 @@
 	}
 
 	.westfestlogo {
-		padding: 2em;
+		padding: 1em;
 	}
 
 	.eventDes {
@@ -96,10 +108,16 @@
 	.weather{
 		grid-column: 3/5;
 		grid-row: 5;
+		padding: 0;
+	}
+
+	.weatherTitle{
+		margin: 20px;
 	}
 	.wvcweather {
-		width: auto;
+		width: 180px;
 		height: auto;
+
 	}
 
 
