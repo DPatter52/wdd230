@@ -1,10 +1,25 @@
 html{
 	font-family: 'Sans-serif', 'Barlow';
+	min-width: 460px;
 }
 
 body{
 	width: fit-content;
 
+}
+
+#greetbanner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	grid-column: 2/4;
+	font-size: small;
+	font-weight: bold;
+	background-color: #429aff;
+	padding: 1em;
+	
+	
 }
 
 header{

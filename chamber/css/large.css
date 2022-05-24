@@ -12,6 +12,11 @@
 		padding: -1em;
 	}
 
+	#greetbanner{
+		font-size: larger;
+	}
+
+
 	body{
 		object-fit: contain;
 	}
