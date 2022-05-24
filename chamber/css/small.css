@@ -3,8 +3,8 @@ html{
 }
 
 body{
-	width: 550px;
-	
+	width: fit-content;
+
 }
 
 header{
