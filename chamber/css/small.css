@@ -2,6 +2,10 @@ html{
 	font-family: 'Sans-serif', 'Barlow';
 }
 
+body{
+	width: 550px;
+}
+
 header{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -9,6 +13,7 @@ header{
     background-color: #af4e4e;
     justify-content: center;
     align-items: center;
+	
 }
 
 .headerDate{
