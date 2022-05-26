@@ -87,6 +87,7 @@ footer{
 
 .footerDes{
 	font-size: medium;
+	padding: 10px;
 }
 
 h2{
@@ -103,7 +104,7 @@ h2{
 	padding: 15px;
 	border-top: 1px solid;
 	border-color: #0e0e0e;
-	font-size: small;
+	font-size: medium;
 }
 
 
@@ -235,7 +236,12 @@ picture img {
 .newsTitle2{
 	font-style: italic;
 	font-size: larger;
-	padding: 1em;
+	padding: .7em;
+}
+
+.newsDes{
+	font-weight: bold;
+	font-size: 18px;
 }
 
 
