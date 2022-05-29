@@ -32,6 +32,10 @@ header{
 	
 }
 
+.windchill, .temp, .windspeed, .weathertype {
+	color:#d4d4d4;
+}
+
 .headerDate{
 	justify-content: center;
 	align-items: center;
@@ -137,6 +141,8 @@ h2{
 	position: relative;
     grid-row: 1;
 }
+
+
 
 picture img {
 	width: 100%;
