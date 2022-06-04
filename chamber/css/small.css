@@ -1,5 +1,6 @@
 html{
-	font-family: 'Sans-serif', 'Barlow';
+	font-family: 'Dosis', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	
 }
 
@@ -11,34 +12,34 @@ html{
 	grid-column: 2/4;
 	font-size: small;
 	font-weight: bold;
-	background-color: #429aff;
+	background-color: #91caff;
 	padding: 1em;
-	
-	
 }
 
+.titleDesc, .titleMain{
+	margin: 0;
+}
 
+.titleDesc{
+	font-size: large;
+}
 
 header{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 2fr 1fr 1fr;
     grid-template-rows: 1fr;
-    background-color: #af4e4e;
+    background-color: #c0e0f3;
     justify-content: center;
     align-items: center;
 	
-}
-
-.windchill, .temp, .windspeed, .weathertype {
-	color:#d4d4d4;
 }
 
 .headerDate{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-color: #863b3b;
-	padding: 30px;
+	background-color: #f5f7a6;
+	padding: 15px;
 	font-size: 25px;
 	font-weight: 400;
 	color: #1a1919;
@@ -51,7 +52,7 @@ header{
 .facebook{
 	justify-content: center;
     align-items: center;
-	margin-right: 20px;
+	margin-right: 10px;
 	text-align: center;
 }
 
@@ -69,7 +70,7 @@ header{
 
 
 footer{
-	background-color: #429aff;
+	background-color: #c0e0f3;
 	font-size: 10px;
 }
 
@@ -121,23 +122,20 @@ h2{
 	margin-right: 0;
 }
 
-.event, .join, .news{
-	background-color: #af4e4e;
+.event, .join, .news, .weather{
+	background-color: #ffffff;
 	padding: 1rem;
+	border: 1px solid black;
+	margin: .5em;
 	
 }
 
 .hero{
 	text-align: center;
 	position: relative;
-	width: 100%;
     grid-row: 1;
 }
 
-/*.mainpic{
-	width: 100%;
-}
-*/
 .welcome {
 	position: absolute;
 	top: 40px;
@@ -151,11 +149,10 @@ h2{
 	position: absolute;
 	top: 150px;
 	right: 30px;
-	background: radial-gradient(#eee, rgb(252, 118, 118));
-	border: 1px solid;
-	border-radius: 10px;
+	background: #8bc7f8fb;
+	
+	border-radius: 35px;
 	padding: 1.5rem;
-	opacity: 0.9;
 	font-size: larger;
 	font-weight: bold;
 }
@@ -172,8 +169,7 @@ h2{
 	font-size: large;
 	font-weight: bolder;
 	padding: 10px;
-	font-style: italic;
-	background-color: #eee;
+	background-color: #93cbff;
 }
 
 .eventDes {
@@ -181,11 +177,11 @@ h2{
 	font-weight: bold;
 	padding: 20px;
 	font-style: italic;
-	background-color: #863b3b;
+	background-color: #93cbff;
 }
 
 .westfestlogo{
-	width: 60px;
+	width: 70px;
 	height: auto;
 	padding: 5px;
 }
@@ -197,8 +193,7 @@ h2{
 	align-items: center;
 	text-align: center;
     grid-row: 3;
-	background-color: #222222;
-	padding: 20px;
+	padding: 25px;
 	
 }
 
@@ -206,12 +201,15 @@ h2{
 	padding: 20px;
 	font-weight: bolder;
 	font-size: large;
-	font-style: italic;
-	background-color: #eee;
+	background-color: #93cbff;
 }
 
 .wvcweather {
 	width: min-content;
+}
+
+.windchill, .temp, .windspeed, .weathertype {
+	color:#000000;
 }
 
 .news{
@@ -223,19 +221,19 @@ h2{
 }
 
 .newsTitle1{
-	font-style: italic;
 	padding: 1em;
-	background-color: #eee;
+	font-weight: bolder;
+	background-color: #93cbff;
 }
 
 .newsTitle2{
-	font-style: italic;
 	font-size: larger;
+	font-weight: bolder;
 	padding: .7em;
 }
 
 .newsDes{
-	font-weight: bold;
+	
 	font-size: 18px;
 }
 
@@ -245,7 +243,8 @@ h2{
 	justify-content: center;
 	align-items: center;
 	grid-row: 5/7;
-	background-color: #af4e4e;
+	border: 1px solid black;
+	margin: .5em;
 	
 	
 }
@@ -254,8 +253,8 @@ h2{
 	width: 450px;
 	height: 200px;
 	border: 1px solid;
-	border-color: #af4e4e;
-	background-color: #863b3b;
+	border-color: #000000;
+	background-color: #ffffff;
 	padding: 1rem;
 }
 
@@ -268,13 +267,11 @@ h2{
 
 .spot1Des{
 	position: absolute;
-	padding: 20px;
+	padding: 18px;
 	font-size: larger;
-	font-style: italic;
-	text-shadow: 0 0 10px #0e0e0e;
-	color: #eee;
-	box-shadow: 0 0 50px #0e0e0e;
-	background-color: #863b3b81;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	background-color: #0456999d;
 }
 
 .spotlight2 {
@@ -287,11 +284,10 @@ h2{
 .spot2Des{
 	padding: 20px;
 	font-size: larger;
-	font-style: italic;
-	text-shadow: 0 0 10px #0e0e0e;
-	color: #eee;
-	box-shadow: 0 0 50px #0e0e0e;
-	background-color: #863b3b81;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	
+	background-color: #93cbff;
 }
 
 .webdev{
@@ -310,11 +306,10 @@ h2{
 .spot3Des{
 	padding: 20px;
 	font-size: larger;
-	font-style: italic;
-	text-shadow: 0 0 10px #0e0e0e;
-	color: #eee;
-	box-shadow: 0 0 50px #0e0e0e;
-	background-color: #863b3b81;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	
+	background-color: #93cbff;
 }
 
 .woodshop{
@@ -343,9 +338,8 @@ h2{
 
 nav {
     grid-column: 4;
-	margin: 0 auto;
-	max-width: 760px;
-	
+	margin-left: 5em;
+	margin-right: 5em;
 }
 .navigation {
 	display: block;
@@ -362,18 +356,15 @@ nav {
 	text-align: left;
 	text-decoration: none;
 	color: black;
-	font-weight: 700;
-	transition: 0.5s;
-	font-size: 16px;
-	border-radius: 20px;
+	transition: 0.4s;
+	font-size: 14px;
+	border-radius: 10px;
 }
 
 .navigation a:hover {
 	color: white;
-	background-color: #af4e4e;
-	border-radius: 20px;
+	background-color: #4c7cd6;
 }	
-
 
 .responsive li {
 	display: block;

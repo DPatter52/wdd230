@@ -9,11 +9,6 @@
 		margin: 0;
 	}
 
-	header{
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: 1fr;
-	}
 
 	body{
 		width: auto;
@@ -127,7 +122,6 @@
 		height: auto;
 
 	}
-
 
 	footer{
 		font-size: 15px;
