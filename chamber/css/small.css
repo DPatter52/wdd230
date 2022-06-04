@@ -1,11 +1,6 @@
 html{
 	font-family: 'Sans-serif', 'Barlow';
-	min-width: 460px;
-}
-
-body{
-	width: fit-content;
-
+	
 }
 
 #greetbanner{
@@ -21,6 +16,8 @@ body{
 	
 	
 }
+
+
 
 header{
     display: grid;
@@ -120,17 +117,11 @@ h2{
 .wrapper{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 250px);
-    gap: 10px;
-    margin-top: 1.75em;
-    margin-bottom: 1.75em;
     margin-left: 0;
 	margin-right: 0;
 }
 
 .event, .join, .news{
-	border: 1px solid;
-	border-color: rgb(196, 196, 196);
 	background-color: #af4e4e;
 	padding: 1rem;
 	
@@ -139,22 +130,21 @@ h2{
 .hero{
 	text-align: center;
 	position: relative;
+	width: 100%;
     grid-row: 1;
 }
 
-
-
-picture img {
+/*.mainpic{
 	width: 100%;
-	height: 100%;
 }
-
+*/
 .welcome {
 	position: absolute;
 	top: 40px;
 	left: 50px;
 	font-size: xx-large;
 	font-weight: 800;
+	
 }
 
 .joinchamber {
@@ -221,8 +211,7 @@ picture img {
 }
 
 .wvcweather {
-	width: 80%;
-	height: auto;
+	width: min-content;
 }
 
 .news{
@@ -256,10 +245,8 @@ picture img {
 	justify-content: center;
 	align-items: center;
 	grid-row: 5/7;
-	border: 1px solid;
-	border-color: rgb(196, 196, 196);
 	background-color: #af4e4e;
-	padding: 20px;
+	
 	
 }
 

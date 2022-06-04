@@ -39,6 +39,7 @@
 	.wrapper{
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: repeat(5, 250px);
+		gap: 10px;
 	}
 
 	.hero{
