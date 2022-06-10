@@ -13,7 +13,7 @@ const windChillFahrenheit = (temperature, windSpeed) =>{
         0.16) + 0.4275 * temperature * Math.pow(windSpeed, 0.16);
         console.log(windChillFactor)
         windChillFactor = Math.floor(windChillFactor);
-        chillFactor.innerHTML = windChillFactor;
+        chillFactor.innerHTML = windChillFactor + "° F";
 
 
 }   else if (temperature > 50 || windSpeed < 3){
