@@ -12,16 +12,17 @@ main{
 }
 
 img {
-    margin: 10px;
+    margin: 20px;
 }
 
-article img[data-src]{
-    filter: blur(0.2em);
+
+img[data-src]{
+    filter: blur(0.3em);
     
 }
 
-article img {
+img{
     filter: blur(0em);
-    transition: filter 0.5s;
+    transition: filter 0.8s;
 }
 
