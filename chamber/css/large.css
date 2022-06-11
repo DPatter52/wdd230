@@ -17,7 +17,7 @@
 		display: flex;
 		padding: 0;
 		grid-column: 4;
-		margin: 0 auto;
+		margin: 1em;
 		background-color: #93ceff;
 		border-radius: 10px;
 	}
@@ -28,14 +28,14 @@
 	.navigation a {
 		text-align: center;
 		font-size: 25px;
-		margin: 1.75rem;
+		margin: .5rem;
 	}
 	.navigation li:first-child {
 		display: none;
 	}
 	
 	.logo{
-		width: 180px;
+		width: auto;
 	}
 
 	.facebook, .linkedIn{

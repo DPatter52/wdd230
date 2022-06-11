@@ -338,8 +338,8 @@ h2{
 
 nav {
     grid-column: 4;
-	margin-left: 5em;
-	margin-right: 5em;
+	margin-left: 4em;
+	margin-right: 4em;
 }
 .navigation {
 	display: block;
@@ -374,22 +374,7 @@ nav {
 /* ---------Discover Page CSS--------- */
 
 
-.discoverMain{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
 
-
-img[data-src]{
-    filter: blur(0.3em);
-    
-}
-
-img{
-    filter: blur(0em);
-    transition: filter 0.8s;
-}
 
 
 
