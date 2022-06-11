@@ -369,3 +369,32 @@ nav {
 .responsive li {
 	display: block;
 }
+
+
+/* ---------Discover Page CSS--------- */
+
+
+.discoverMain{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img[data-src]{
+    filter: blur(0.3em);
+    
+}
+
+img{
+    filter: blur(0em);
+    transition: filter 0.8s;
+}
+
+
+
+
+
+
+
+
