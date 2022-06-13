@@ -16,6 +16,11 @@ html{
 	padding: 1em;
 }
 
+.logo{
+	width: 100px;
+	height: 100px;
+}
+
 .titleDesc, .titleMain{
 	margin: 0;
 }
@@ -125,7 +130,7 @@ h2{
 .event, .join, .news, .weather{
 	background-color: #ffffff;
 	padding: 1rem;
-	border: 1px solid black;
+	border: 2px solid rgb(129, 129, 129);
 	margin: .5em;
 	
 }
@@ -193,7 +198,7 @@ h2{
 	align-items: center;
 	text-align: center;
     grid-row: 3;
-	padding: 25px;
+	padding: 16px;
 	
 }
 
@@ -252,8 +257,7 @@ h2{
 .spotlight1, .spotlight2, .spotlight3{
 	width: 450px;
 	height: 200px;
-	border: 1px solid;
-	border-color: #000000;
+	border: 2px solid rgb(129, 129, 129);
 	background-color: #ffffff;
 	padding: 1rem;
 }
@@ -332,14 +336,12 @@ h2{
 }
 
 
-
-
 /* -------Nav CSS-------- */
 
 nav {
     grid-column: 4;
-	margin-left: 4em;
-	margin-right: 4em;
+
+	margin-right: 3em;
 }
 .navigation {
 	display: block;
@@ -374,7 +376,66 @@ nav {
 /* ---------Discover Page CSS--------- */
 
 
+.discoverMain{
+	display: grid;
+	justify-items: center;
+	gap: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
 
+.discoverMain>div{
+	border: 2px solid rgb(129, 129, 129);
+}
+
+.imageDesc{
+	margin-top: 0;
+	text-align: center;
+	font-size: 12px;
+	font-style: italic;
+	
+	
+}
+
+.pro-img[data-src]{
+    filter: blur(0.3em);
+}
+
+.pro-img{
+    filter: blur(0em);
+    transition: filter 1.5s;
+	transition: .5s;
+	width: 335spx;
+    height: 215px;
+	padding: 15px;
+}
+
+
+
+.pro-img:hover{
+	filter: blur(.1em ) grayscale(50%);
+	transition: .5s;
+	
+}
+
+.timeVisited{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background-color: #f5f7a6;
+	font-size: 18px;
+    font-weight: 400;
+}
+
+.visits-label{
+	margin-right: 5px;
+}
+
+.visits{
+	font-weight: bold;
+}
 
 
 
