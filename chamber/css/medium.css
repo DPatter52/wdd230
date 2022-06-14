@@ -142,9 +142,36 @@
 		font-size: medium;
 	}
 
+	/* ---------Discover Page CSS--------- */
 	.pro-img{
 		width: auto;
 		height: auto;
 
+	}
+
+	label{
+		width: 450px;
+	}
+	
+
+	.busDescTitle{
+		width: auto;
+		
+	}
+
+	form{
+		font-size: larger;
+	}
+
+	label{
+		width: 450px;
+	}
+
+	form > div{
+		width: 600px;
+	}
+
+	.thankYou{
+		font-size: large;
 	}
 }

@@ -27,7 +27,7 @@
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="discover.html">DISCOVER</a></li>
                 <li><a href="#">DIRECTORY</a></li>
-                <li><a href="#">JOIN</a></li>
+                <li><a href="join.html">JOIN</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
@@ -42,38 +42,91 @@
     <span id="greetbanner" role="banner"></span>
     <div class="headerDate"></div>
 
-    <main>
+    <main class="joinMain">
+        <div class="title-box">
+            <h2 class="joinTitle">SUBMIT YOUR APPLICATION AND RECIEVE BENEFITS LIKE:</h2>
+
+            <ul class="benefits">
+                <li>Specialized Trainings</li>
+                <li>Inlcuded advertising on the site</li>
+                <li>Various discounts</li>
+                <li>And many more!</li>
+            </ul>
+        </div>
+
+        <div>
+            <p class="form-title">--Start your application--</p>
+        </div>
 
         <form action="thankyou.html">
-            <label for="fname">First Name:</label>
-            <br>
-            <input type="text" id="fname" required>
+            <div class="form-section1">
+                <div>
+                    <label>*First Name:
+                        <input type="text" id="fname" name="fname" required>
+                    </label>
+                </div>
 
-            <label for="lname">Last Name:</label>
-            <br>
-            <input type="text" id="lname" required>
+                <div>
+                    <label>*Last Name:
+                        <input type="text" id="lname" name="lname" required>
+                    </label>
+                </div>
 
-            <label for="title">Position Title:</label>
-            <br>
-            <input type="text" id="title">
+                <div>
+                    <label>Position Title:
+                        <input type="text" id="posTitle" name="busPosition">
+                    </label>
+                </div>
 
-            <label for="email">Email:</label >
-            <br>
-            <input type="email" id="email" placeholder="example@email.com" required>
+                <div>
+                    <label>*Email:
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    </label >
+                </div>
 
-            <label for="cell phonenumber">Cell Phone Number:</label>
-            <br>
-            <input type="tel" id="cell" required>
+                <div>
+                    <label>*Cell Phone Number:
+                        <input type="tel" id="cell" name="cellNumber" required>
+                    </label>
+                </div>
+                
+                <div>
+                    <label>*Business Name:
+                        <input type="text" id="busName" name="busName" required>
+                    </label>
+                </div>
+            </div>
+            <!--Membership-->
+            <div class="memberships">
+                <p>Choose a Membership Level:</p>
+                <label class="membership1">NP Membership -- No cost
+                    <input type="radio" name="membLvl-1" value="NP Membership">
+                </label>
 
-            <label for="busName">Business Name:</label>
-            <br>
-            <input type="text" id="busName" required>
+                <label class="membership2">Bronze Membership -- $50/monthly
+                    <input type="radio" name="membLvl-2" value="Bronze Membership">
+                </label>
 
-            <label for="membership">Choose Membership Level:</label>
-            <br>
-            <input type="radio" id="membership1" name="memblvl" value="NP Membership">
+                <label class="membership3">Silver Membership -- $150/monthly
+                    <input type="radio" name="membLvl-3" value="Silver Membership">
+                </label>
 
+                <label class="membership4">Gold Membership -- $250/monthly
+                    <input type="radio" name="membLvl-4" value="Gold Membership">
+                </label>
+            </div>
 
+            <div>
+                <label class="busDescTitle">Business Description:
+                    <textarea id="busDesc" name="busDesc" rows="8" cols="40"></textarea>
+                </label>
+            </div>
+            
+            <div class="submitbttn">
+                <input type="submit" id="submit" name="submitbttn" value="Submit">
+            </div>
+
+            <input type="hidden" id="submissiondate" name="datesubmitted">
         </form>
 
 

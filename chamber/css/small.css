@@ -374,8 +374,6 @@ nav {
 
 
 /* ---------Discover Page CSS--------- */
-
-
 .discoverMain{
 	display: grid;
 	justify-items: center;
@@ -411,8 +409,6 @@ nav {
 	padding: 15px;
 }
 
-
-
 .pro-img:hover{
 	filter: blur(.1em ) grayscale(50%);
 	transition: .5s;
@@ -438,9 +434,100 @@ nav {
 }
 
 
+/* ---------Join Page CSS--------- */
 
+.form-title{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 25px;
+}
 
+form{
+	display: grid;
+	justify-content: center;
+	margin: 15px;
+	font-size: medium;
+	gap: 1.5em;
+}
 
+form > div{
+	width: 380px;
+	text-align: right;
+}
 
+label{
+	display: inline-block;
+	width: 380px;
+}
 
+.membership1, .membership2, .membership3, .membership4{
+	right: 65px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.memberships > p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.memberships{
+	border: 4px dashed darkgray;
+    display: grid;
+    justify-content: center;
+	background-color: #93cbff97;
+}
+
+.submitbttn{
+	text-align: center;
+}
+
+#submit{
+	padding: 16px;
+    padding-right: 35px;
+    padding-left: 35px;
+    border-radius: 15px;
+    border: #0f0e0e 1px solid;
+	margin-top: 1em;
+}
+
+.title-box{
+	display: grid;
+	justify-content: center;
+	border: 30px solid #f5f7a6;
+	padding: 20px;
+}
+
+.benefits{
+	font-size: 20px;
+}
+
+.form-section1{
+	display: grid;
+	border: 4px dashed darkgray;
+	gap: 2em;
+	background-color: #93cbff97;
+}
+
+#busDesc{
+	resize: none;
+	border-radius: 15px;
+	
+}
+
+.busDescTitle{
+	text-align: center;
+	background-color: #93cbff97;
+	border: 4px dashed darkgray;
+	width: 100%;
+}
+
+.thankYou{
+	text-align: center;
+	height: 300px;
+	margin-top: 200px;
+	font-size: small;
+}
 
