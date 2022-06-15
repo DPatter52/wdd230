@@ -453,6 +453,7 @@ form{
 form > div{
 	width: 380px;
 	text-align: right;
+	padding: 10px;
 }
 
 label{
@@ -478,6 +479,7 @@ label{
     display: grid;
     justify-content: center;
 	background-color: #93cbff97;
+	grid-row: 1;
 }
 
 .submitbttn{
@@ -490,7 +492,6 @@ label{
     padding-left: 35px;
     border-radius: 15px;
     border: #0f0e0e 1px solid;
-	margin-top: 1em;
 }
 
 .title-box{
@@ -513,15 +514,16 @@ label{
 
 #busDesc{
 	resize: none;
-	border-radius: 15px;
+	border-radius: 7px;
+	
 	
 }
 
 .busDescTitle{
 	text-align: center;
-	background-color: #93cbff97;
-	border: 4px dashed darkgray;
-	width: 100%;
+	justify-content: center;
+	align-items: center;
+
 }
 
 .thankYou{

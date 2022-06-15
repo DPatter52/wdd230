@@ -95,9 +95,19 @@
                         <input type="text" id="busName" name="busName" required>
                     </label>
                 </div>
+            
+                <div>
+                    <label class="busDescTitle">Business Description:
+                        <textarea id="busDesc" name="busDesc" rows="8" cols="40"></textarea>
+                    </label>
+                </div>
+
+                <div class="submitbttn">
+                    <input type="submit" id="submit" name="submitbttn" value="Submit">
+                </div>
             </div>
-            <!--Membership-->
-            <div class="memberships">
+             <!--Membership-->
+             <div class="memberships">
                 <p>Choose a Membership Level:</p>
                 <label class="membership1">NP Membership -- No cost
                     <input type="radio" name="membLvl-1" value="NP Membership">
@@ -116,15 +126,7 @@
                 </label>
             </div>
 
-            <div>
-                <label class="busDescTitle">Business Description:
-                    <textarea id="busDesc" name="busDesc" rows="8" cols="40"></textarea>
-                </label>
-            </div>
-            
-            <div class="submitbttn">
-                <input type="submit" id="submit" name="submitbttn" value="Submit">
-            </div>
+
 
             <input type="hidden" id="submissiondate" name="datesubmitted">
         </form>

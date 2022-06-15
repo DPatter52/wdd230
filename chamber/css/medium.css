@@ -149,29 +149,38 @@
 
 	}
 
-	label{
-		width: 450px;
-	}
-	
 
-	.busDescTitle{
+	/* ---------Join Page CSS--------- */
+
+	.memberships{
+		grid-row:auto;
 		width: auto;
-		
+	}
+
+	.memberships>p{
+		font-size: 18px;
 	}
 
 	form{
-		font-size: larger;
+		font-size: small;
+		grid-template-columns: 1fr 1fr;
+		gap: 1em;
 	}
 
 	label{
-		width: 450px;
+		width: 350px;
 	}
 
 	form > div{
-		width: 600px;
+		width: 400px;
 	}
 
 	.thankYou{
 		font-size: large;
 	}
+
+	.form-section1{
+		width: auto;
+	}
+
 }

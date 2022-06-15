@@ -186,10 +186,33 @@
 	}
 
 
+	/* ---------Join Page CSS--------- */
 
-
-
+	form > div{
+		width: auto;
+	}
 	
+	form{
+		font-size: larger;
+		gap: 4em;
+	}
+
+	.memberships{
+		width: auto;
+	}
+
+	.memberships>p{
+		font-size: 25px;
+	}
+
+
+	.form-section1{
+		width: 100%;
+	}
+
+	label{
+		width: 100%;
+	}
 
 
 
