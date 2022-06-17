@@ -450,28 +450,17 @@ form{
 	gap: 1.5em;
 }
 
-form > div{
-	width: 380px;
-	text-align: right;
-	padding: 10px;
-}
-
 label{
-	display: inline-block;
-	width: 380px;
+	display: flex;
+	place-content: space-between;
+
 }
 
-.membership1, .membership2, .membership3, .membership4{
-	right: 65px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    position: relative;
-}
-
-.memberships > p{
+.memberships > h2{
 	text-align: center;
 	font-weight: bold;
 	font-size: 25px;
+	margin: 0;
 }
 
 .memberships{
@@ -480,6 +469,8 @@ label{
     justify-content: center;
 	background-color: #93cbff97;
 	grid-row: 1;
+	padding: 2em;
+	gap:1.5em;
 }
 
 .submitbttn{
@@ -510,20 +501,24 @@ label{
 	border: 4px dashed darkgray;
 	gap: 2em;
 	background-color: #93cbff97;
+	padding: 2em;
+	justify-content: center;
 }
 
 #busDesc{
 	resize: none;
 	border-radius: 7px;
-	
-	
 }
 
 .busDescTitle{
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+	display: grid;
+}
 
+.busDesc-box{
+	display: grid;
 }
 
 .thankYou{
@@ -531,5 +526,11 @@ label{
 	height: 300px;
 	margin-top: 200px;
 	font-size: small;
+}
+
+.membership-box{
+    border: 4px dashed #ffffffcf;
+    margin: 10px;
+    padding: 10px;
 }
 

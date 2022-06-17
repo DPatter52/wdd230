@@ -155,20 +155,21 @@
 	.memberships{
 		grid-row:auto;
 		width: auto;
+		gap: 0;
 	}
 
-	.memberships>p{
+	.memberships>h2{
 		font-size: 18px;
 	}
 
-	form{
-		font-size: small;
-		grid-template-columns: 1fr 1fr;
-		gap: 1em;
+	.memberships>p{
+		margin: 0;
 	}
 
-	label{
-		width: 350px;
+	form{
+		font-size: medium;
+		grid-template-columns: 1fr 1fr;
+		gap: 1em;
 	}
 
 	form > div{

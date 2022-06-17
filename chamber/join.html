@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 230: Lesson 3</title>
-    <meta name="description" content="WDD 230: Lesson 3 Assignment which has us make a site plan for a chamber of commerce website.">
+    <title>WDD 230: Join Page</title>
+    <meta name="description" content="WDD 230: Chamber of Commerce Join page.">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
@@ -50,7 +50,7 @@
                 <li>Specialized Trainings</li>
                 <li>Inlcuded advertising on the site</li>
                 <li>Various discounts</li>
-                <li>And many more!</li>
+                <li>Invitations to Chamber meetings/gatherings</li>
             </ul>
         </div>
 
@@ -96,7 +96,7 @@
                     </label>
                 </div>
             
-                <div>
+                <div class="busDesc-box">
                     <label class="busDescTitle">Business Description:
                         <textarea id="busDesc" name="busDesc" rows="8" cols="40"></textarea>
                     </label>
@@ -108,23 +108,64 @@
             </div>
              <!--Membership-->
              <div class="memberships">
-                <p>Choose a Membership Level:</p>
-                <label class="membership1">NP Membership -- No cost
-                    <input type="radio" name="membLvl-1" value="NP Membership">
-                </label>
+                <h2>Choose a Membership Level:</h2>
+                <div class="membership-box">
+                    <label class="membership1">NP Membership -- No cost
+                        <input type="radio" name="membLvl-1" value="NP Membership">
+                    </label>
+                    <p><b>Benefits:</b>
+                        <ul>
+                        <li>General Trainings</li>
+                        <li>No discounts</li>
+                        <li>No advertising</li>
+                        <li>Invited to Chamber meetings/gatherings</li>
+                        </ul>
+                    </p>
+                </div>
 
-                <label class="membership2">Bronze Membership -- $50/monthly
-                    <input type="radio" name="membLvl-2" value="Bronze Membership">
-                </label>
+                <div class="membership-box">
+                    <label class="membership2">Bronze Membership -- $50/monthly
+                        <input type="radio" name="membLvl-2" value="Bronze Membership">
+                    </label>
+                    <p><b>Benefits:</b>
+                        <ul>
+                        <li>General Trainings</li>
+                        <li>8% discounts at select stores</li>
+                        <li>Small advertising plot</li>
+                        <li>Invited to Chamber meetings/gatherings</li>
+                        </ul>
+                    </p>
+                </div>
 
-                <label class="membership3">Silver Membership -- $150/monthly
-                    <input type="radio" name="membLvl-3" value="Silver Membership">
-                </label>
+                <div class="membership-box">
+                    <label class="membership3">Silver Membership -- $150/monthly
+                        <input type="radio" name="membLvl-3" value="Silver Membership">
+                    </label>
+                    <p><b>Benefits:</b>
+                        <ul>
+                        <li>Specialized Trainings</li>
+                        <li>10% discounts at select stores</li>
+                        <li>Medium & small advertising plots</li>
+                        <li>Invited to Chamber meetings/gatherings</li>
+                        </ul>
+                    </p>
+                </div>
 
-                <label class="membership4">Gold Membership -- $250/monthly
-                    <input type="radio" name="membLvl-4" value="Gold Membership">
-                </label>
-            </div>
+                <div class="membership-box">
+                    <label class="membership4">Gold Membership -- $250/monthly
+                        <input type="radio" name="membLvl-4" value="Gold Membership">
+                    </label>
+                    <p><b>Benefits:</b>
+                        <ul>
+                        <li>Specialized Trainings</li>
+                        <li>15% discounts at select stores</li>
+                        <li>Large, medium & small advertising plots</li>
+                        <li>Invited to Chamber meetings/gatherings</li>
+                        <li>Sent out free Chamber merchandise every month for the first year</li>
+                        </ul>
+                    </p>
+                </div>
+                </div>
 
 
 
