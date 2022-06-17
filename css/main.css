@@ -2,14 +2,15 @@
 header {
     display: flex;
     align-items: center;
-    background-color: rgb(75, 17, 17); 
+    background-color: #8ec4f383; 
     box-shadow: 0px 0px 30px;
-    margin-top: 2em; 
+    margin:2em;
+    padding: 20px 
 }
 
 
 img {
-    max-width: 100%;
+    max-width: 150px;
     height: auto;
     margin: 35px;
     border-radius: 2em;
@@ -36,6 +37,7 @@ main{
     display: flex;
     flex-direction: column;
     border-radius: 3em;
+    margin: 1em;
 }
 
 
@@ -58,7 +60,7 @@ p {
 
 footer{
     display: grid;
-    background-color: rgb(75, 17, 17);
+    background-color: #8ec4f383;
     margin-top: 2em;
     padding: 25px;
     text-align: center;
