@@ -1,20 +1,20 @@
 
-const URL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const URL = 'https://github.com/DPatter52/wdd230/blob/main/chamber/json/data.json';
 const cards = document.querySelector('.cards');
  
 
-async function getProphets(){
+async function getBusinesses(){
     let response = await fetch(URL);
     if (response.ok){
         let data = await response.json();
 
-        displayProphets(data);
+        displayBusinesses(data);
     } else {
         throw Error(response.statusText);
     }
 }
 
-function displayProphets(data) {
+function displayBusinesses(data) {
     data.prophets.forEach(prophet => {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
@@ -23,11 +23,11 @@ function displayProphets(data) {
         let img = document.createElement('img');
 
     
-        h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
-        p1.innerHTML = `Date of Birth: ${prophet.birthdate}`;
-        p2.innerHTML = `Place of Birth: ${prophet.birthplace}`;
-        img.setAttribute('src', prophet.imageurl);
-        img.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
+        h2.innerHTML = `${} ${}`;
+        p1.innerHTML = `Date of Birth: ${}`;
+        p2.innerHTML = `Place of Birth: ${}`;
+        img.setAttribute('src', );
+        img.setAttribute('alt', `Portrait of ${} ${}`);
         img.setAttribute('loading', 'lazy');
         
         card.append(h2);
@@ -40,6 +40,6 @@ function displayProphets(data) {
 
 };
 
-getProphets();
+getBusinesses();
     
  
