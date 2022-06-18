@@ -1,0 +1,36 @@
+html{
+    font-family: 'Barlow', 'sans-serif'
+}
+
+h1{
+    color: rgb(55, 146, 231);
+    font-size: 45px;
+}
+
+section{
+    display: grid;
+    background-color: #aae9f8;
+    border: 1px solid #6b6b6b;
+    padding: 1em;
+    gap: 10px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
+    box-shadow: 10px 10px 80px black;
+    border: 1px solid rgb(128, 128, 128);
+    padding: 1em;
+}
+
+body{
+    text-align: center;
+    margin: 2em;
+}
+
+img{
+    align-items: center;
+    justify-self: center;
+    width: 200px;
+}

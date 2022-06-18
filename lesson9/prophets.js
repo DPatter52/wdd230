@@ -18,26 +18,28 @@ function displayProphets(data) {
     data.prophets.forEach(prophet => {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
-        let p = document.createElement('p');
+        let p1 = document.createElement('p1');
+        let p2 = document.createElement('p2');
         let img = document.createElement('img');
 
     
-        h2.innerHTML = prophet.name;
-       // p.innerHTML = `Location of Birth: ${prophet.birthplace}`;
-       //img.innerHTML('src', prophet.imageurl);
-       // img.innerHTML('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
-       // img.innerHTML('loading', 'lazy');
-
-    
+        h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
+        p1.innerHTML = `Date of Birth: ${prophet.birthdate}`;
+        p2.innerHTML = `Place of Birth: ${prophet.birthplace}`;
+        img.setAttribute('src', prophet.imageurl);
+        img.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
+        img.setAttribute('loading', 'lazy');
         
-        card.appendChild(h2);
-       // card.appendChild(p);
-       // card.appendChild(img);
+        card.append(h2);
+        card.append(p1);
+        card.append(p2)
+        card.append(img);
 
-        cards.append(card);
+        cards.appendChild(card);
     });
 
 };
 
+getProphets();
     
  
