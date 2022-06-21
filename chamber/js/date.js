@@ -15,12 +15,3 @@ const mainnav = document.querySelector('.navigation')
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
-
-//----Join Page Form Submission----//
-const subdate = document.querySelector("#submissiondate");
-
-const dateOfSub = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
-
-subdate.innerHTML = `<em>${fulldate}</em>`; 
-
-console.log(dateOfSub)

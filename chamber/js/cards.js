@@ -1,5 +1,5 @@
 
-const URL = 'https://github.com/DPatter52/wdd230/blob/main/chamber/json/data.json';
+const URL = 'https://raw.githubusercontent.com/DPatter52/wdd230/main/chamber/json/data.json';
 const cards = document.querySelector('.cards');
  
 
@@ -15,24 +15,25 @@ async function getBusinesses(){
 }
 
 function displayBusinesses(data) {
-    data.prophets.forEach(prophet => {
+    data.businesses.forEach(business => {
         let card = document.createElement('section');
-        let h2 = document.createElement('h2');
         let p1 = document.createElement('p1');
         let p2 = document.createElement('p2');
+        let p3 = document.createElement('p3');
         let img = document.createElement('img');
 
     
-        h2.innerHTML = `${} ${}`;
-        p1.innerHTML = `Date of Birth: ${}`;
-        p2.innerHTML = `Place of Birth: ${}`;
-        img.setAttribute('src', );
-        img.setAttribute('alt', `Portrait of ${} ${}`);
+        
+        p1.innerHTML = `${business.address}`;
+        p2.innerHTML = `${business.phonenumber}`;
+        p3.innerHTML = `${business.websiteURL}`;
+        img.setAttribute('src', business.businessicon);
+        img.setAttribute('alt', `Icon for ${business.businessname}`);
         img.setAttribute('loading', 'lazy');
         
-        card.append(h2);
         card.append(p1);
         card.append(p2)
+        card.append(p3);
         card.append(img);
 
         cards.appendChild(card);
