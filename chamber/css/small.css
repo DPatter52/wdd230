@@ -534,3 +534,35 @@ label{
     padding: 10px;
 }
 
+
+/* ---------Directory Page CSS--------- */
+
+
+.cards{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	padding: 4em;
+	gap: 5em;
+}
+
+section{
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	background-color: rgb(235, 235, 235);
+	border: 1px solid darkgray;
+	box-shadow: 15px 15px 20px gray;
+	padding: 4em;
+	gap: 10px;
+
+}
+
+section>img{
+	height: 130px;
+	justify-self: center;
+	grid-row: 1;
+}
+
+section>p{
+	font-size: 12px;
+}
