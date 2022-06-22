@@ -26,7 +26,7 @@ function displayBusinesses(data) {
         
         p1.innerHTML = `${business.address}`;
         p2.innerHTML = `${business.phonenumber}`;
-        p3.innerHTML = `${business.websiteURL}`;
+        p3.innerHTML = `<a href="url">${business.websiteURL}</a>`;
         img.setAttribute('src', business.businessicon);
         img.setAttribute('alt', `Icon for ${business.businessname}`);
         img.setAttribute('loading', 'lazy');

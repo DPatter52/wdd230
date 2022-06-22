@@ -197,4 +197,9 @@
 		font-size: 25px;
 	}
 
+	/* ---------Directory Page CSS--------- */
+	section>img{
+		height: 130px;
+	}
+
 }

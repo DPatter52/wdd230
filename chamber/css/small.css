@@ -540,7 +540,7 @@ label{
 
 .cards{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 	padding: 4em;
 	gap: 5em;
 }
@@ -558,7 +558,9 @@ section{
 }
 
 section>img{
-	height: 130px;
+	width: auto;
+	height: 100px;
+	object-fit: contain;
 	justify-self: center;
 	grid-row: 1;
 }
