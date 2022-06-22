@@ -3,7 +3,7 @@
         {
             "businessname": "South Fork Hardware",
             "ceo": "Kay Sidwell",
-            "address": "6383 West 3500 South WEST VALLEY CITY, UT 84128",
+            "address": "6383 W 3500 S WEST VALLEY CITY, UT 84128",
             "phonenumber": "801-969-3437",
             "websiteURL": "https://www.southforkhw.com/",
             "businessicon": "images/southforkicon.jpg",
@@ -17,7 +17,7 @@
             "phonenumber": "801-416-3972",
             "websiteURL": "https://westvalley.mastermuffler.net/",
             "businessicon": "images/mastermuffler.png",
-            "membershiplvl": "Gold"
+            "membershiplvl": "Silver"
             
         },
         {
@@ -47,47 +47,47 @@
             "phonenumber": "801-968-2130",
             "websiteURL": "http://www.absdrivein.com/",
             "businessicon": "images/abs.jpg",
-            "membershiplvl": "Bronze"
+            "membershiplvl": "NP "
             
         },
         {
-            "businessname": "",
-            "ceo": "",
-            "address": "",
-            "phonenumber": "",
-            "websiteURL": "",
-            "businessicon": "",
-            "membershiplvl": ""
+            "businessname": "Smith's Food and Drug",
+            "ceo": "null",
+            "address": "5620 W 4100 S, WEST VALLEY CITY, UT 84128",
+            "phonenumber": "801-966-1441",
+            "websiteURL": "https://www.smithsfoodanddrug.com/stores/grocery/ut/west-valley-city/",
+            "businessicon": "images/smithsicon.png",
+            "membershiplvl": "Gold"
             
         },
         {
-            "businessname": "",
-            "ceo": "",
-            "address": "",
-            "phonenumber": "",
-            "websiteURL": "",
-            "businessicon": "",
-            "membershiplvl": ""
+            "businessname": "Maverick",
+            "ceo": "Chuck Maggelet",
+            "address": "5969 W 4100 S, WEST VALLEY CITY, UT 84128",
+            "phonenumber": "385-715-4813",
+            "websiteURL": "https://maverik.com/",
+            "businessicon": "images/maverickicon.png",
+            "membershiplvl": "NP"
             
         },
         {
-            "businessname": "",
-            "ceo": "",
-            "address": "",
-            "phonenumber": "",
-            "websiteURL": "",
-            "businessicon": "",
-            "membershiplvl": ""
+            "businessname": "Deseret Industries",
+            "ceo": "Russell M. Nelson",
+            "address": "2994 S Glen Eagle Dr Suite A, WEST VALLEY CITY, UT 84128",
+            "phonenumber": "801-963-3907",
+            "websiteURL": "http://deseretindustries.org/",
+            "businessicon": "images/DIlogo.png",
+            "membershiplvl": "NP"
             
         },
         {
-            "businessname": "",
-            "ceo": "",
-            "address": "",
-            "phonenumber": "",
-            "websiteURL": "",
-            "businessicon": "",
-            "membershiplvl": ""
+            "businessname": "Mountain America Credit Union",
+            "ceo": "Sterling Nielsen",
+            "address": "2958 S 5600 W, WEST VALLEY CITY, UT 84120",
+            "phonenumber": "801-955-8600",
+            "websiteURL": "https://www.macu.com/Branch-Locations/UT/West-Valley/West-Valley-Branch/0036",
+            "businessicon": "images/mountainamericalogo.png",
+            "membershiplvl": "Gold"
         }
     ]
 }
