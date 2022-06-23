@@ -21,6 +21,7 @@ function displayBusinesses(data) {
         let p2 = document.createElement('p2');
         let p3 = document.createElement('p3');
         let p4 = document.createElement('p4');
+        let p5 = document.createElement('p5');
         let img = document.createElement('img');
 
     
@@ -29,6 +30,7 @@ function displayBusinesses(data) {
         p2.innerHTML = `${business.phonenumber}`;
         p3.innerHTML = `<a href="${business.websiteURL}">${business.websiteURL}</a>`;
         p4.innerHTML = `${business.businessname}`;
+        p5.innerHTML = `Membership: ${business.membershiplvl}`
         img.setAttribute('src', business.businessicon);
         img.setAttribute('alt', `Icon for ${business.businessname}`);
         img.setAttribute('loading', 'lazy');
@@ -36,8 +38,9 @@ function displayBusinesses(data) {
         card.append(img);
         card.append(p4);
         card.append(p1);
-        card.append(p2)
+        card.append(p2);
         card.append(p3);
+        card.append(p5);
         
         
 
