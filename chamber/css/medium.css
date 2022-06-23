@@ -184,4 +184,35 @@
 		width: auto;
 	}
 
+	/* ---------Directory Page CSS--------- */
+
+	.list p1,p2,p3{
+		padding: 0;
+	}
+
+	.list{
+		padding: 1em;
+	}
+
+	.list section>img{
+		display: block;
+		height: 50px;
+	}
+
+	.list section{
+		padding: 4em;
+		font-size: 12px;
+	}
+
+	.list p4{
+		display: none;
+	}
+
+
+	.grid section>img{
+		height: 130px;
+	}
+
+	
+
 }

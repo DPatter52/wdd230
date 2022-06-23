@@ -198,8 +198,24 @@
 	}
 
 	/* ---------Directory Page CSS--------- */
-	section>img{
+	.list section>img{
 		height: 130px;
 	}
 
+	.list  section{
+		font-size: 16px;
+		padding: 2em;
+	}
+
+	.list p1,p2,p3{
+		padding: 25px;
+	}
+
+	.list{
+		padding: 2em;
+	}
+
+	.grid section>img{
+		height: 130px;
+	}
 }
