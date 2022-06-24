@@ -7,9 +7,11 @@ const captionDesc = document.querySelector('figcaption');
 const url = `{https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=Imperial&appid=27815bec9f6207729f966614a7207170}`;
 
 
-async function apiFetch() {
+apiFetch(url)
+
+async function apiFetch(apiURL) {
     try {
-      const response = await fetch(url);
+      const response = await fetch(apiURL);
       if (response.ok) {
         const data = await response.json();
         console.log(data); // this is for testing the call
