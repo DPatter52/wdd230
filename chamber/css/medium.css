@@ -75,7 +75,7 @@
 		text-align: center;
 		grid-column: 1/5;
 		grid-row: 4;
-		padding: 3em;
+		padding: 2em;
 	}
 
 	.joinBttn {
@@ -116,11 +116,6 @@
 
 	.weatherTitle{
 		margin: 20px;
-	}
-	.wvcweather {
-		width: 180px;
-		height: auto;
-
 	}
 
 	footer{

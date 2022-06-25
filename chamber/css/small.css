@@ -209,9 +209,7 @@ h2{
 	background-color: #93cbff;
 }
 
-.wvcweather {
-	width: min-content;
-}
+
 
 .windchill, .temp, .windspeed, .weathertype {
 	color:#000000;
