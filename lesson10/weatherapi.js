@@ -26,6 +26,7 @@ function  displayResults(weatherData) {
   const desc = weatherData.weather[0].description;
   const upperDesc = desc.toUpperCase()
 
+  
   weatherIcon.setAttribute('src', iconsrc);
   weatherIcon.setAttribute('alt', desc);
   captionDesc.textContent = upperDesc;
