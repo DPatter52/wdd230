@@ -1,0 +1,18 @@
+html{
+    font-family: fantasy;
+}
+
+div{
+    display: grid;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 15px 15px 30px black;
+    margin: 10em;
+    background-color: lightblue;
+}
+
+img{
+    width: 100px;
+}
+
