@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 230: Discovery Page</title>
-    <meta name="description" content="WDD 230: Chamber of Commerce Assignment Discovery Page.">
+    <title>WDD 230: Contact page</title>
+    <meta name="description" content="WDD 230: Chamber of Commerce Contact page.">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
@@ -40,39 +40,43 @@
     </header>
 
     <span id="greetbanner" role="banner"></span>
-    
     <div class="headerDate"></div>
 
-    <div class="timeVisited">
-    <p><span class="visits-label">Times you've vistited our Chamber:  </span></p><span class="visits"></span>
-    </div>
-
-    <main class="discoverMain">
         <div>
-            <img class="pro-img" src="images/placeholder_700x400.png" data-src="images/RaceEthnicity_700x400.png" alt="chart1">
-            <p class="imageDesc">Race/Ethnicity chart for West Valley City</p>
+            <p class="contact-form-title">---We'd love to hear from you! Send us a message about questions you have or your experience being a member!---</p>
         </div>
 
-        <div>
-            <img class="pro-img" src="images/placeholder_500x400.png" data-src="images/Maverickcenter_500x400.jpg" alt="image1">
-            <p class="imageDesc">West Valley City Maverick Center</p>
-        </div>
+    <form class="contact-form" action="messagesent.html">
+        <div class="contactbox">
+                <div>
+                    <label>*First Name:
+                        <input type="text" id="fname" name="fname" required>
+                    </label>
+                </div>
 
-        <div>
-            <img class="pro-img" src="images/placeholder_500x400.png" data-src="images/Skatepark_500x400.jpg" alt="image2">
-            <p class="imageDesc">West Valley City Skatepark</p>
-        </div>
+                <div>
+                    <label>*Last Name:
+                        <input type="text" id="lname" name="lname" required>
+                    </label>
+                </div>
 
-        <div>
-            <img class="pro-img" src="images/placeholder_500x400.png" data-src="images/Valleyfair_500x400.jpg" alt="image3">
-            <p class="imageDesc">West Valley City Valley Fair Mall</p>
-        </div>
+                <div>
+                    <label>*Email:
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    </label >
+                </div>
 
-        <div>
-            <img class="pro-img" src="images/placeholder_700x400.png" data-src="images/occupations_700x340.png" alt="chart2">
-            <p class="imageDesc">Occupations/Businesses in West Valley City</p>
+                <div class="contact-message">
+                    <label class="contactmssg-title">Message:
+                        <textarea id="contactmssg" name="contactmssg" rows="8" cols="40"></textarea>
+                    </label>
+                </div>
+
+                <div class="submitbttn">
+                    <input type="submit" id="submit" name="submitbttn" value="Submit">
+                </div>
         </div>
-    </main>
+    </form>
 
     <footer>
         <div class="footerHeading">
@@ -86,7 +90,6 @@
     </footer>
     <script src="js/date.js"></script>
     <script src="js/banner.js"></script>
-    <script src="js/lazyload.js"></script>
-    <script src="js/timevisited.js"></script>
+    <script src="js/join.js"></script>
 </body>
 </html>

@@ -2,6 +2,7 @@ html{
 	font-family: 'Dosis', sans-serif;
 	font-family: 'Open Sans', sans-serif;
 	
+	
 }
 
 #greetbanner{
@@ -141,6 +142,10 @@ h2{
     grid-row: 1;
 }
 
+.mainpic{
+	width: 100%;
+}
+
 .welcome {
 	position: absolute;
 	top: 40px;
@@ -155,9 +160,8 @@ h2{
 	top: 150px;
 	right: 30px;
 	background: #8bc7f8fb;
-	
 	border-radius: 35px;
-	padding: 1.5rem;
+	padding: 10px;
 	font-size: larger;
 	font-weight: bold;
 }
@@ -248,12 +252,12 @@ h2{
 	grid-row: 5/7;
 	border: 1px solid black;
 	margin: .5em;
-	
+	padding: 1em;
 	
 }
 
 .spotlight1, .spotlight2, .spotlight3{
-	width: 450px;
+	width: auto;
 	height: 200px;
 	border: 2px solid rgb(129, 129, 129);
 	background-color: #ffffff;
@@ -274,6 +278,7 @@ h2{
 	font-weight: bold;
 	color: rgb(255, 255, 255);
 	background-color: #0456999d;
+	width: 200px;
 }
 
 .spotlight2 {
@@ -295,7 +300,6 @@ h2{
 .webdev{
 	width: 64px;
 	height: 64px;
-	padding: 20px;
 }
 
 .spotlight3 {
@@ -338,7 +342,6 @@ h2{
 
 nav {
     grid-column: 4;
-
 	margin-right: 3em;
 }
 .navigation {
@@ -364,10 +367,15 @@ nav {
 .navigation a:hover {
 	color: white;
 	background-color: #4c7cd6;
+	
 }	
 
 .responsive li {
 	display: block;
+}
+
+a{
+	color:rgb(0, 0, 0)
 }
 
 
@@ -440,7 +448,7 @@ nav {
 	font-size: 25px;
 }
 
-form{
+.join-form{
 	display: grid;
 	justify-content: center;
 	margin: 15px;
@@ -481,6 +489,12 @@ label{
     padding-left: 35px;
     border-radius: 15px;
     border: #0f0e0e 1px solid;
+	transition: 0.4s;
+}
+
+#submit:hover{
+	color: white;
+	background-color: #4c7cd6;
 }
 
 .title-box{
@@ -552,14 +566,14 @@ label{
 }
 
 .list section{
-	display: flex;
-	justify-content: center;
-	text-align: center;
+	display: grid;
+	justify-content: left;
+	text-align: left;
 	background-color: rgb(235, 235, 235);
 	border: 1px solid darkgray;
 	box-shadow: 15px 15px 20px gray;
 	padding: 1em;
-	gap: 2em;
+	gap: 5px;
 	font-size: 10px;
 	width: auto;
 }
@@ -605,4 +619,50 @@ label{
 .grid p4{
 	display: none;
 	grid-column: 1;
+}
+
+/* ---------Contact Page CSS--------- */
+
+
+.contactbox{
+	display: grid;
+	border: 4px dashed darkgray;
+	gap: 2em;
+	background-color: #93cbff97;
+	padding: 2em;
+	justify-content: center;
+}
+
+#contactmssg{
+	resize: none;
+	border-radius: 7px;
+}
+
+.contactmssg-title{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: grid;
+	gap: 1em;
+}
+
+.contact-message{
+	display: grid;
+}
+
+.contact-form-title{
+	text-align: center;
+    margin: 29px;
+    font-size: 25px;
+    border: 5px dashed lightgray;
+    padding: 1em;
+}
+
+.contact-form{
+	display: grid;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: medium;
+	gap: 1.5em;
 }

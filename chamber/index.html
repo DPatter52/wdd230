@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 230: Lesson 3</title>
-    <meta name="description" content="WDD 230: Lesson 3 Assignment which has us make a site plan for a chamber of commerce website.">
+    <title>WDD 230: Chamber of Commerce Home Page</title>
+    <meta name="description" content="WDD 230: Chamber of Commerce home page.">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
@@ -28,7 +28,7 @@
                 <li><a href="discover.html">DISCOVER</a></li>
                 <li><a href="directory.html">DIRECTORY</a></li>
                 <li><a href="join.html">JOIN</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
 
@@ -48,6 +48,17 @@
     <main>
         <div class="wrapper">
 
+        <div class="hero">
+                <picture>
+                    <source srcset="images/valley-medium.jpg" media="(min-width: 560px) and (max-width: 1023px)">
+                    <source srcset="images/valley-large.jpg" media="(min-width: 1024px) and (max-width: 2500px)">
+                    <img class="mainpic" src="images/valley-small.jpg" alt="home page img">
+                </picture>         
+            <section class="welcome">WELCOME TO THE WEST SIDE!</section>
+            <section class="joinchamber"><a href="join.html">Join our Chamber</a></section>
+        </div>
+
+
         <div class="event">
             <section class="eventTitle">Event</section>
             <picture>
@@ -56,19 +67,7 @@
             <section class="eventDes">West Fest <br> Thurs. June 16th 5 PM - 11PM</section>
         </div>
 
-        <div class="hero">
-                <picture>
-                    <source srcset="images/mainpic-medium.jpg" media="(min-width: 560px) and (max-width: 1023px)">
-                    <source srcset="images/mainpic-large.jpg" media="(min-width: 1024px) and (max-width: 2000px)">
-                    <img class="mainpic" src="images/mainpic-small.jpg" alt="week06 practice picture">
-                </picture>         
-                <!--<img class="heroimg" src="images/westvalleypic_edited.jpg" alt="westValley">-->
-            
 
-
-            <section class="welcome">WELCOME TO THE WEST SIDE!</section>
-            <section class="joinchamber">Join our Chamber</section>
-        </div>
 
         <div class="weather">
             <section class="weatherTitle">Weather</section>
@@ -86,7 +85,7 @@
         </div>
 
         <div class="join">
-            <section class="joinBttn">JOIN NOW</section>
+            <section class="joinBttn"><a href="join.html">JOIN NOW</a></section>
             <section class="joinDes">Learn how you can join this chamber and how it will help your organization!</section>
         </div>
 
