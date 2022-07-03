@@ -250,13 +250,17 @@ h2{
 	justify-content: center;
 	align-items: center;
 	grid-row: 5/7;
-	border: 1px solid black;
+	height: fit-content;
+	gap: 1em;
 	margin: .5em;
 	padding: 1em;
 	
 }
 
-.spotlight1, .spotlight2, .spotlight3{
+.spotlightbox div{
+	display: grid;
+	justify-content: center;
+	text-align: center;
 	width: auto;
 	height: 200px;
 	border: 2px solid rgb(129, 129, 129);
@@ -264,64 +268,12 @@ h2{
 	padding: 1rem;
 }
 
-.recpic{
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-	
+.spotlightbox div:nth-child(3){
+	display: none;
 }
 
-.spot1Des{
-	position: absolute;
-	padding: 18px;
-	font-size: larger;
-	font-weight: bold;
-	color: rgb(255, 255, 255);
-	background-color: #0456999d;
-	width: 200px;
-}
-
-.spotlight2 {
-	display: block;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
-.spot2Des{
-	padding: 20px;
-	font-size: larger;
-	font-weight: bold;
-	color: rgb(0, 0, 0);
-	
-	background-color: #93cbff;
-}
-
-.webdev{
-	width: 64px;
-	height: 64px;
-}
-
-.spotlight3 {
-	display: block;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-
-.spot3Des{
-	padding: 20px;
-	font-size: larger;
-	font-weight: bold;
-	color: rgb(0, 0, 0);
-	
-	background-color: #93cbff;
-}
-
-.woodshop{
-	width: 64px;
-	height: 64px;
-	padding: 20px;
+.spotlightbox img{
+	width: 120px;
 }
 
 .contactinfo{
@@ -329,9 +281,6 @@ h2{
 	border-top: 1px solid #000;
 }
 
-.spotlightbox div:nth-child(3){
-    display: none;
-}
 
 .join{
     display: none;
@@ -662,7 +611,7 @@ label{
 	display: grid;
 	justify-content: center;
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom:;
 	font-size: medium;
 	gap: 1.5em;
 }

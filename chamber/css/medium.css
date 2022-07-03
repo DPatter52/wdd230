@@ -39,7 +39,7 @@
 	.wrapper{
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: repeat(5, 250px);
-		gap: 10px;
+		gap: 18px;
 	}
 
 	.hero{
@@ -58,11 +58,6 @@
 		grid-row: 3;
 		padding: 10px;
 
-	}
-
-	.spotlight1, .spotlight2{
-		width: auto;
-		height: 180px;
 	}
 
 	.join{
