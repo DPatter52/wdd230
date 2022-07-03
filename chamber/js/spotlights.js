@@ -13,7 +13,7 @@ fetch(URL)
   .then(function (jsonObject) {
     console.table(jsonObject);
     const businesses = jsonObject['businesses'];
-    while (countext< 3){
+    while (count< 3){
     businesses.forEach(displaybusinesses);
     }
   });
@@ -21,10 +21,9 @@ fetch(URL)
 
   function displaybusinesses(business) {
     random = getRandomInt(2);
-    if ((business.membershiplvl == "Gold" || business.membershiplvl == "Silver" ) && count< 3 && countext< 3 && random == 1 && (!(include.includes(business.name)))) {
+    if ((business.membershiplvl == "Gold" || business.membershiplvl == "Silver" ) && count< 3 && random == 1) {
     count += 1;
-    countext += 1;
-
+    
     let card = document.createElement('div');
     let img = document.createElement('img');
     let p1 = document.createElement('p1');
