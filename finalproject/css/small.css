@@ -1,0 +1,111 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.section1 {
+    margin-bottom: 3em;
+}
+
+.weather-strip{
+    display: flex;
+    gap: 2em;
+    margin-bottom: 3em;
+    margin-top: 3em;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    display: flex;
+    padding: 3em;
+    gap: 3em;
+    text-align: center;
+    background-color: #f0f0f0;
+    align-items: center;
+}
+
+/*--Header/Navigation--*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    background-color: #f0f0f0;
+}
+
+
+.navigation {
+	display: block;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 8px;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	transition: 0.4s;
+	font-size: 14px;
+	border-radius: 10px;
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: #b8b8b8;
+	
+}	
+
+.responsive li {
+	display: block;
+}
+
+a{
+	color:rgb(0, 0, 0)
+}
+
+
+/*--Reservation Page--*/
+select:invalid{
+    color: gray;
+}
+
+option{
+    color: black;
+}
+
+.reservation-form{
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    margin-bottom: 3em;
+}
+
+.form-section1{
+    display: grid;
+    gap: 1em;
+}
+
+.stayDesc-box{
+    display: grid;
+    gap: .5em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.submitbttn{
+    text-align:center;
+}
+
+
+

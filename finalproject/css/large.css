@@ -1,0 +1,21 @@
+@media only screen and (min-width: 64rem) {
+    .navigation {
+        display: flex;
+        padding: 0;
+        grid-column: 4;
+        margin: 1em;
+        background-color: #cfcfcf;
+        border-radius: 10px;
+    }
+    .navigation li {
+        display: block; 
+    }
+    .navigation a {
+        text-align: center;
+        font-size: 20px;
+        margin: .5rem;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+}
