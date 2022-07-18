@@ -1,21 +1,21 @@
 
-const URL = '';
-const cards = document.querySelector('.grid');
+const URL = 'https://raw.githubusercontent.com/DPatter52/wdd230/main/finalproject/json/data.json';
+const cards = document.querySelector('.section2');
  
 
-async function getBusinesses(){
+async function getTemples(){
     let response = await fetch(URL);
     if (response.ok){
         let data = await response.json();
 
-        displayBusinesses(data);
+        displayTemples(data);
     } else {
         throw Error(response.statusText);
     }
 }
 
-function displayBusinesses(data) {
-    data.businesses.forEach(business => {
+function displayTemples(data) {
+    data.temples.forEach(temple => {
         let card = document.createElement('section');
         let p1 = document.createElement('p1');
         let p2 = document.createElement('p2');
@@ -26,13 +26,13 @@ function displayBusinesses(data) {
 
     
         
-        p1.innerHTML = `${business.address}`;
-        p2.innerHTML = `${business.phonenumber}`;
-        p3.innerHTML = `<a href="${business.websiteURL}">${business.websiteURL}</a>`;
-        p4.innerHTML = `${business.businessname}`;
-        p5.innerHTML = `Membership: ${business.membershiplvl}`
-        img.setAttribute('src', business.businessicon);
-        img.setAttribute('alt', `Icon for ${business.businessname}`);
+        p1.innerHTML = `${temple.templename}`;
+        p2.innerHTML = `${temple.telephone}`;
+        p3.innerHTML = `${temple.services}`;
+        p4.innerHTML = `${temple.history}`;
+        p5.innerHTML = `Membership: ${temple.templeclosure}`
+        img.setAttribute('src', temple.templeicon);
+        img.setAttribute('alt', `Icon for ${temple.templename}`);
         img.setAttribute('loading', 'lazy');
 
         card.append(img);
@@ -49,7 +49,7 @@ function displayBusinesses(data) {
 
 };
 
-getBusinesses();
+getTemples();
 
 
 const gridbutton = document.querySelector("#gridbttn");
