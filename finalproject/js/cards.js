@@ -1,6 +1,6 @@
 
 const URL = 'https://raw.githubusercontent.com/DPatter52/wdd230/main/finalproject/json/data.json';
-const cards = document.querySelector('.section2');
+const cards = document.querySelector('.mySlides fade');
  
 
 async function getTemples(){
@@ -28,22 +28,20 @@ function displayTemples(data) {
         
         p1.innerHTML = `${temple.templename}`;
         p2.innerHTML = `${temple.telephone}`;
-        p3.innerHTML = `${temple.services}`;
-        p4.innerHTML = `${temple.history}`;
-        p5.innerHTML = `Membership: ${temple.templeclosure}`
+        //p3.innerHTML = `${temple.services}`;
+        //p4.innerHTML = `${temple.history}`;
+        //p5.innerHTML = `${temple.templeclosure}`;
         img.setAttribute('src', temple.templeicon);
         img.setAttribute('alt', `Icon for ${temple.templename}`);
         img.setAttribute('loading', 'lazy');
 
         card.append(img);
-        card.append(p4);
         card.append(p1);
         card.append(p2);
-        card.append(p3);
-        card.append(p5);
+        //card.append(p3);
+        //card.append(p4);
+       // card.append(p5);
         
-        
-
         cards.appendChild(card);
     });
 
@@ -52,22 +50,37 @@ function displayTemples(data) {
 getTemples();
 
 
-const gridbutton = document.querySelector("#gridbttn");
-const listbutton = document.querySelector("#listbttn");
-const display = document.querySelector(".grid");
 
-gridbutton.addEventListener("click", () => {
-    display.classList.add("grid");
-    display.classList.remove("list");
-});
 
-listbutton.addEventListener("click", showList);
 
-function showList() {
-    display.classList.add("list");
-    display.classList.remove("grid");
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = cards;
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
 
 
  
