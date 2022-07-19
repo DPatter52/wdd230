@@ -31,56 +31,60 @@
         </nav>
 
         <section class="social">
-            <div><img></div>
-            <div><img></div>
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook icon"></a>
+            <a href="https://www.instagram.com/"><img src="images/insta.png" alt="Instagram icon"></a>
+            <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter icon"></a>
         </section>
     </header>
 
     <main>
         <div class="wrapper">
             <div class="section1">
-                <div>Book at the worlds best inns & suites for temple goers!</div>
-                <div>Set up your reservation now and expereience more this temple trip.</div>
-                <div>Reserve Now</div>
-
+                <section class="greeting-box">
+                    <div class="homepage-greeting-1">Book at the worlds best inns & suites for temple goers!</div>
+                    <div class="homepage-greeting-2">Set up your reservation now and experience more this temple trip.</div>
+                    <a class="homepage-reserve" href="reservation.html">Reserve Now</a>
+                </section>
                 <picture>
                     <source srcset="" media="">
                     <source srcset="" media="">
-                    <img class="" src="" alt="section1img">
+                    <img class="section1-img" src="images/family_temple.jpg" alt="section1img">
                 </picture>
             </div>
+
         
+            <div class="slideshow-container">
 
-            <div class="section2">
                 <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="img1.jpg" style="width:100%">
-                    <div class="text">Caption Text</div>
-                  </div>
+                  <img src="images/jordanriver.jpeg" style="width:100%">
+                  <div class="text">Jordan River Utah Temple</div>
+                  <div class="summary"></div>
+                </div>
                 
-                  <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="img2.jpg" style="width:100%">
-                    <div class="text">Caption Two</div>
-                  </div>
+                <div class="mySlides fade">
+                  <img src="images/mesa.jpg" style="width:100%">
+                  <div class="text">Mesa Arizona Temple</div>
+                  <div class="summary"></div>
+                </div>
                 
-                  <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="img3.jpg" style="width:100%">
-                    <div class="text">Caption Three</div>
-                  </div>
-
-                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <div class="mySlides fade">
+                  <img src="images/sandiego.jpeg" style="width:100%">
+                  <div class="text">San Diego California Temple</div>
+                  <div class="summary"></div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
                 </div>
                 <br>
-
+                
                 <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                  </div>
-            </div>
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+
 
             <div class="weather-strip">
                 <picture>
@@ -110,7 +114,7 @@
 
     <script src="js/hamburger.js"></script>
     <script src="js/weather.js"></script>
-    <script src="js/cards.js"></script>
+    <script src="js/slideshow.js"></script>
 
 </body>
 </html>

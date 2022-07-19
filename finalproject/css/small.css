@@ -2,41 +2,33 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
-    margin: 0;
-}
 
-.section1 {
-    margin-bottom: 3em;
-}
 
-.weather-strip{
-    display: flex;
-    gap: 2em;
-    margin-bottom: 3em;
-    margin-top: 3em;
-    background-color: #f0f0f0;
-    justify-content: center;
-    align-items: center;
-
-}
-
-footer{
-    display: flex;
-    padding: 3em;
-    gap: 3em;
-    text-align: center;
-    background-color: #f0f0f0;
-    align-items: center;
-}
 
 /*--Header/Navigation--*/
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 3em;
     background-color: #f0f0f0;
+    padding: 20px 20px 20px 65px;
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+}
+
+.social img{
+  width: 30%;
+}
+
+.social a{
+  text-align: center;
+}
+
+.mylogo{
+  width: 70%;
 }
 
 
@@ -70,9 +62,48 @@ header {
 	display: block;
 }
 
-a{
-	color:rgb(0, 0, 0)
+
+/*--Main--*/
+
+
+.greeting-box{
+  display: grid;
+  margin: 5em;
+  padding: 100px;
+  background: lightgrey;
+  border: 1px solid 898989; 
+  gap: 15px;
 }
+
+body{
+    margin: 0;
+}
+
+.section1 {
+    margin-bottom: 3em;
+    padding: 20px 0px 20px 20px;
+}
+
+.weather-strip{
+    display: flex;
+    gap: 2em;
+    margin-bottom: 3em;
+    margin-top: 3em;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    display: flex;
+    padding: 3em;
+    gap: 3em;
+    text-align: center;
+    background-color: #f0f0f0;
+    align-items: center;
+}
+
 
 /*--Temple Card CSS--*/
 
@@ -85,20 +116,21 @@ a{
     justify-items: center;
 }
 
+
+
 /*--Slide Show Box--*/
-/* Slideshow container */
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
   }
   
-  /* Hide the images by default */
   .mySlides {
     display: none;
   }
   
-  /* Next & previous buttons */
+
   .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -108,24 +140,22 @@ a{
     padding: 16px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    background-color: #b8b8b8;
   }
   
-  /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
   
-  /* Caption text */
   .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -136,16 +166,6 @@ a{
     text-align: center;
   }
   
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
     height: 15px;
@@ -161,7 +181,6 @@ a{
     background-color: #717171;
   }
   
-  /* Fading animation */
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;

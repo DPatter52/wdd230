@@ -4,18 +4,68 @@
         padding: 0;
         grid-column: 4;
         margin: 1em;
-        background-color: #cfcfcf;
         border-radius: 10px;
+        border-bottom: 1px solid ;
+        border-top: 1px solid;
     }
     .navigation li {
         display: block; 
     }
     .navigation a {
         text-align: center;
-        font-size: 20px;
+        font-size: 25px;
         margin: .5rem;
     }
     .navigation li:first-child {
         display: none;
     }
+
+    .section1{
+        display: flex;
+        align-items: center;
+    }
+
+    .homepage-greeting-1{
+        font-size: 40px;
+    }
+    
+    .homepage-greeting-2{
+        font-size: 25px;
+    }
+        
+   .homepage-reserve{
+    background: #2b2b2b;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 60px 150px 20px 150px;
+    padding: 15px;
+    text-decoration: none;
+    color: inherit;
+   }
+
+   .homepage-reserve:hover{
+    transition: .5s;
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
