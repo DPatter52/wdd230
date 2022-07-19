@@ -24,7 +24,7 @@
             "templename": "San Diego California Temple",
             "address": "7474 Charmant Dr San Diego CA 92122-5000 United States",
             "telephone": "(1) 858-622-0991",
-            "services": "Clothing rental available--No cafeteria available--No patron housing available--Distribution center nearby",
+            "services": "Clothing rental available\nNo cafeteria available\nNo patron housing available\nDistribution center nearby",
             "history": "Milestones: 7 April 1984-Announced 27 February 1988-Groundbreaking 25 April 1993-Dedicated  ",
             "templeclosure": "2022\\Saturday, 1 October 2022\\Wednesday, 23 November 2022 - Thursday, 24 November 2022\\Saturday, 24 December 2022\\Saturday, 31 December 2022",
             "templeicon": "images/sandiego.jpeg"     
@@ -41,42 +41,43 @@
         
         },
         {
-            "templename": "",
-            "address": "",
-            "telephone": "",
-            "services": "",
-            "history": "",
-            "templeclosure": "",
-            "templeicon": ""   
+            "templename": "Rome Italy Temple",
+            "address": "Via di Settebagni 376 Rome RM Italy",
+            "telephone": "(39) 06-9480-5050",
+            "services": "Clothing rental available\nNo cafeteria available\nPatron housing available\nDistribution center nearby",
+            "history": "Milestones: 4 October 2008-Announced\n23 October 2010-Groundbreaking\n10 March 2019-Dedicated",
+            "templeclosure": "2022\nMonday, 19 September 2022 - Monday, 3 October 2022\nSaturday, 24 December 2022 - Monday, 26 December 2022\nSaturday, 31 December 2022 - Sunday, 1 January 2023\n2023\nMonday, 20 March 2023 - Monday, 3 April 2023\nThursday, 29 June 2023\nMonday, 18 September 2023 - Monday, 2 October 2023\nSunday, 24 December 2023 - Tuesday, 26 December 2023",
+            "templeicon": "images/rome.png"   
         
         },
         {
-            "templename": "",
-            "address": "",
-            "telephone": "",
-            "services": "",
-            "history": "",
-            "templeclosure": "",
-            "templeicon": ""  
+            "templename": "Anchorage Alaska Temple",
+            "address": "13161 Brayton Dr Anchorage AK 99516 United States",
+            "telephone": "(1) 907-348-7890",
+            "services": "No clothing rental available\nNo cafeteria available\nNo patron housing available\nNo distribution center nearby",
+            "history": "Milestones: 4 October 1997-Announced\n17 April 1998-Groundbreaking\n9 January 1999-Dedicated\n8 February 2004-Rededicated",
+            "templeclosure": "2022\nMonday, 5 September 2022\nMonday, 19 September 2022 - Friday, 30 September 2022\nSaturday, 1 October 2022 - Sunday, 2 October 2022\nThursday, 24 November 2022\nSaturday, 24 December 2022 - Sunday, 25 December 2022\nSaturday, 31 December 2022 - Sunday, 1 January 2023\n2023\nMonday, 20 March 2023 - Monday, 3 April 2023\nMonday, 18 September 2023 - Monday, 2 October 2023",
+            "templeicon": "images/anchorage.jpeg"  
         
         },
         {
-            "templename": "",
-            "address": "",
-            "telephone": "",
-            "services": "",
-            "history": "",
-            "templeclosure": ""   
+            "templename": "Hong Kong China Temple",
+            "address": "2 Cornwall St Kowloon Tong Kowloon City, Hong Kong",
+            "telephone": "(852) 2910-9300",
+            "services": "Clothing rental available\nNo cafeteria available\nNo patron housing available\nDistribution center nearby",
+            "history": "Milestones: 3 October 1992-Announced\n22 January 1994-Groundbreaking\n26 May 1996-Dedicated\n19 June 2022-Rededicated",
+            "templeclosure": "N/A",
+            "templeicon": "images/hongkong.jpg"  
         
         },
         {
-            "templename": "",
-            "address": "",
-            "telephone": "",
-            "services": "",
-            "history": "",
-            "templeclosure": "",
-            "templeicon": "" 
+            "templename": "Baton Rouge Louisiana Temple",
+            "address": "10339 Highland Rd Baton Rouge LA 70810 United States",
+            "telephone": "(1) 225-769-1197",
+            "services": "No clothing rental available\nNo cafeteria available\nNo patron housing available\nNo distribution center nearby",
+            "history": "Milestones: 14 October 1998-Announced\n8 May 1999-Groundbreaking\n16 July 2000-Dedicated\n17 November 2019-Rededicated",
+            "templeclosure": "2022\nSaturday, 1 October 2022\nMonday, 31 Octover 2022 - Monday, 14 November 2022\nWednesday, 23 November 2022 - Thursday, 24 November 2022\nSaturday, 24 December 2022 - Monday, 26 December 2022\nSaturday, 31 December 2022 - Monday, 2 January 20232023\nSaturday, 1 April 2023\nMonday, 1 May 2023 - Monday, 15 May 2023\nTuesday, 4 July 2023\nSaturday, 30 September 2023\nSunday, 29 October 2023 - Sunday, 12 November 2023\nWednesday, 22 November 2023 - Thursday, 23 November 2023\nSunday, 24 December 2023 - Tuesday, 26 December 2023\nSunday, 31 December 2023 - Monday, 1 January 2024",
+            "templeicon": "images/batonrouge.jpeg" 
         
         }
     ]

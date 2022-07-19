@@ -362,4 +362,20 @@ option{
   background-size: cover;
 }
 
+/*--Temples page--*/
 
+.grid{
+ display: grid;
+ gap: 10em;
+ margin-top: 5em;
+ margin-bottom: 5em;
+}
+
+.grid img{
+  width: 50%;
+}
+
+.grid section{
+  display: grid;
+  justify-items: center;
+}

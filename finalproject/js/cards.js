@@ -1,6 +1,6 @@
 
 const URL = 'https://raw.githubusercontent.com/DPatter52/wdd230/main/finalproject/json/data.json';
-const cards = document.querySelector('.section2');
+const cards = document.querySelector('.grid');
  
 
 async function getTemples(){
