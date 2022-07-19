@@ -11,7 +11,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #f0f0f0;
-    box-shadow: 2px 8px 11px #8f8f8f;
+    box-shadow: 1px 1px 15px #8f8f8f;
 }
 
 .social{
@@ -81,7 +81,7 @@ a.hamburger{
   background: lightgrey;
   gap: 15px;
   padding: 80px;
-  box-shadow: 0px 0px 15px 2px #7a7a7a;
+  box-shadow: 0px 0px 15px 2px #8f8f8f;
 }
 
 body{
@@ -149,7 +149,7 @@ background-color: rgb(92, 92, 92);
     align-items: center;
     padding: 20px;
     font-size: 12px;
-    box-shadow: 3px 12px 20px #6a6a6a;
+    box-shadow: inset 0px 0px 12px #8f8f8f;
 }
 
 div.temp{
@@ -216,7 +216,7 @@ footer{
     text-align: center;
     background-color: #f0f0f0;
     align-items: center;
-    box-shadow: -1px -5px 20px 5px #8f8f8f;
+    box-shadow: 0px -1px 15px 0px #8f8f8f;
 }
 
 
@@ -239,7 +239,7 @@ footer{
     max-width: 1000px;
     position: relative;
     margin: auto;
-    box-shadow: 0px 0px 12px 7px #a1a1a1
+    box-shadow: 0px 0px 15px 0px #8f8f8f;
   }
   
   .mySlides {
@@ -313,7 +313,8 @@ footer{
   text-align: center;
   margin-top: 2em;
   background: lightgrey;
-  box-shadow: 0px 0px 5px 2px #6f6f6f;
+  box-shadow: 0px 0px 5px 2px #8f8f8f;
+  padding: 25px;
 }
 
 select:invalid{
@@ -375,14 +376,14 @@ option{
   text-align: center;
   margin-top: 3em;
   background: lightgrey;
-  box-shadow: 0px 0px 5px 2px #6f6f6f;
+  box-shadow: 0px 0px 5px 2px #8f8f8f;
+  padding: 25px;
 }
 
 .grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 8em;
-  
   margin-bottom: 5em;
   padding: 35px;
 }
@@ -395,7 +396,7 @@ option{
 .grid section{
   display: grid;
   justify-items: center;
-  padding: 25px;
+  padding: 50px;
   box-shadow: 0px 0px 20px;
   gap: 1em;
   border: 5px solid lightgray;
@@ -421,4 +422,16 @@ option{
   filter: blur(.1em ) grayscale(50%);
   transition: .5s;
 
+}
+
+
+/*--Services Page--*/
+.services{
+  position: relative;
+  padding: 25px;
+}
+
+.amenities{
+  position: relative;
+  padding: 25px;
 }

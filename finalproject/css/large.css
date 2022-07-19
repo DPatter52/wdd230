@@ -3,11 +3,6 @@
         display: flex;
         padding: 0;
         grid-column: 4;
-        margin: 1em;
-        padding: 5px;
-        border-radius: 10px;
-        border-bottom: 1px solid ;
-        border-top: 1px solid;
         gap: 1em;
     }
     .navigation li {
