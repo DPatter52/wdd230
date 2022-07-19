@@ -429,9 +429,28 @@ option{
 .services{
   position: relative;
   padding: 25px;
+  
 }
 
 .amenities{
   position: relative;
   padding: 25px;
+  
+}
+
+.link-bar{
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 25px;
+  background-color: lightgray; 
+}
+
+.link-bar a{
+  text-decoration: none;
+  color: black;
+}
+
+.link-bar a:hover{
+  color: white;
 }
