@@ -43,7 +43,7 @@
         <form class="reservation-form" action="thankyou.html">
             <div class="form-section1">
                 <div>
-                    <label>Choose a Location:</label><span style="color: red !important; display: inline; float: none;">*</span>
+                    <label for="locations">Choose a Location:</label><span style="color: red !important; display: inline; float: none;">*</span>
                     <select name="locations" id="locations" required>
                         <option value="" disabled selected hidden>Select Temple...</option>
                         <option value="jordanriver">Jordan River Utah Temple</option>
@@ -55,7 +55,7 @@
                 </div>
 
                 <div>
-                    <label>Date of arrival:</label><span style="color: red !important; display: inline; float: none;">*</span>
+                    <label for="trip-start">Date of arrival:</label><span style="color: red !important; display: inline; float: none;">*</span>
                         <input type="date" id="date" name="trip-start" required>
                 </div>
 
@@ -72,17 +72,17 @@
                 </div>
 
                 <div>
-                    <label>Full Name:</label><span style="color: red !important; display: inline; float: none;">*</span>
+                    <label for="full-name">Full Name:</label><span style="color: red !important; display: inline; float: none;">*</span>
                         <input type="text" id="full-name" name="full-name" required>
                 </div>
                 
                 <div>
-                    <label>Email:</label><span style="color: red !important; display: inline; float: none;">*</span>
+                    <label for="email">Email:</label><span style="color: red !important; display: inline; float: none;">*</span>
                         <input type="email" id="email" name="email" placeholder="example@email.com" required>
                 </div>
 
                 <div>
-                    <label>Cell Phone Number:</label><span style="color: red !important; display: inline; float: none;">*</span>
+                    <label for="cellNumber">Cell Phone Number:</label><span style="color: red !important; display: inline; float: none;">*</span>
                         <input type="tel" id="cell" name="cellNumber" required>
                 </div>
 
