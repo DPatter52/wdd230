@@ -25,7 +25,6 @@ function displayTemples(data) {
         let img = document.createElement('img');
 
     
-        
         p1.innerHTML = `${temple.templename}`;
         p2.innerHTML = `${temple.telephone}`;
         p3.innerHTML = `${temple.services}`;
@@ -40,7 +39,7 @@ function displayTemples(data) {
         card.append(p2);
         card.append(p3);
         card.append(p4);
-        card.append(p5);
+        //card.append(p5);
         
         cards.appendChild(card);
     });

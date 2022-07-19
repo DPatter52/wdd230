@@ -309,6 +309,13 @@ footer{
 
 
 /*--Reservation Page--*/
+.reservation-title{
+  text-align: center;
+  margin-top: 2em;
+  background: lightgrey;
+  box-shadow: 0px 0px 5px 2px #6f6f6f;
+}
+
 select:invalid{
     color: gray;
 }
@@ -364,18 +371,55 @@ option{
 
 /*--Temples page--*/
 
+.temples-title{
+  text-align: center;
+  margin-top: 3em;
+  background: lightgrey;
+  box-shadow: 0px 0px 5px 2px #6f6f6f;
+}
+
 .grid{
- display: grid;
- gap: 10em;
- margin-top: 5em;
- margin-bottom: 5em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 8em;
+  
+  margin-bottom: 5em;
+  padding: 35px;
 }
 
 .grid img{
-  width: 50%;
+  width: 500px;
+  height: 300px;
+  border: 5px solid lightgray;
 }
 
 .grid section{
   display: grid;
   justify-items: center;
+  padding: 25px;
+  box-shadow: 0px 0px 20px;
+  gap: 1em;
+  border: 5px solid lightgray;
+  align-content: space-evenly;
+}
+
+.grid p:nth-child(odd){
+  background-color: lightgray;
+}
+
+.grid section>p1, p2, p3, p4, p5{
+  font-size: 14px;
+  width: fit-content;
+}
+
+.grid section>img{
+  transition: filter 1.5s;
+  transition: .5s;
+  padding: 15px;
+}
+
+.grid section>img:hover{
+  filter: blur(.1em ) grayscale(50%);
+  transition: .5s;
+
 }
