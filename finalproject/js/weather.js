@@ -27,6 +27,7 @@ async function apiFetch() {
 function  displayResults(weatherData) {
   temperature.innerHTML = `<strong>${weatherData.main.temp.toFixed(1)}° F</strong>`;
         windSpeed.innerHTML = `Wind Speed: ${weatherData.wind.speed.toFixed(0)}mph`;
+        humidity.innerHTML = `Humidity: ${weatherData.main.humidity}`;
 
 
   const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;

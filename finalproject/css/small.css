@@ -11,12 +11,15 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #f0f0f0;
-    padding: 20px 20px 20px 65px;
+    box-shadow: 2px 8px 11px #8f8f8f;
 }
 
 .social{
   display: flex;
   flex-direction: column;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  min-width: 120px;
 }
 
 .social img{
@@ -29,6 +32,7 @@ header {
 
 .mylogo{
   width: 70%;
+  min-width: 170px;
 }
 
 
@@ -43,8 +47,8 @@ header {
 }
 .navigation a {
 	display: block;
-	padding: 8px;
-	text-align: left;
+	padding: 10px;
+	text-align: right;
 	text-decoration: none;
 	color: black;
 	transition: 0.4s;
@@ -62,17 +66,22 @@ header {
 	display: block;
 }
 
+a.hamburger{
+  font-size: 20px;
+}
 
 /*--Main--*/
 
+.wrapper{
+  padding: 20px;
+}
 
 .greeting-box{
   display: grid;
-  margin: 5em;
-  padding: 100px;
   background: lightgrey;
-  border: 1px solid 898989; 
   gap: 15px;
+  padding: 80px;
+  box-shadow: 0px 0px 15px 2px #7a7a7a;
 }
 
 body{
@@ -80,19 +89,124 @@ body{
 }
 
 .section1 {
-    margin-bottom: 3em;
-    padding: 20px 0px 20px 20px;
+  display: grid;
+  justify-items: center;
+  padding: 0;
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+
+.section1-img{
+  grid-row: 1;
+  width: 100%;
+}
+
+.greeting-box{
+  text-align: center;
+  justify-items: center;
+}
+
+.homepage-greeting-1{
+  font-size: 20px;
+}
+
+.homepage-greeting-2{
+  font-size: 14px;
+}
+  
+.homepage-reserve{
+background: #383838;
+border-radius: 10px;
+color: white;
+text-align: center;
+padding: 18px;
+text-decoration: none;
+width: 250px;
+font-size: 14px;
+}
+
+.homepage-reserve:hover{
+transition: .5s;
+
+font-size: 20px;
+background-color: rgb(92, 92, 92);
+}
+
+.mySlides.fade{
+  text-align: center;
+}
+
+.mySlides.fade img{
+  width: 80%;
 }
 
 .weather-strip{
     display: flex;
-    gap: 2em;
-    margin-bottom: 3em;
-    margin-top: 3em;
+    gap: 3em;
+    margin-bottom: 2em;
     background-color: #f0f0f0;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    font-size: 12px;
+    box-shadow: 3px 12px 20px #6a6a6a;
+}
 
+div.temp{
+  font-size: 20px;
+}
+
+.weather-title{
+  margin-top: 2em;
+  text-align: center;
+  font-size: 25px;
+  background-color: #f0f0f0;
+}
+
+.weather-desc-box{
+  align-items: center;
+  text-align: center;
+}
+
+.temp{
+  font-size: 30px;
+}
+
+
+.weathericon{
+  width: 100px;
+}
+
+.tri-container{
+  display: flex;
+  text-align: center;
+  margin-bottom: 5em;
+  justify-content: center;
+}
+
+.tri-container .box1, .box2, .box3{
+  padding: 35px;
+  margin: 20px;
+  border: 1px solid #898989;
+  border-radius: 20px;
+  width: 350px;
+  text-decoration: none;
+  color: black;
+}
+
+.box3{
+  display: none;
+ }
+
+.tri-container .box1:hover, .box2:hover, .box3:hover{
+  background-color: lightgrey;
+  font-size: larger;
+  transition: .2s;
+}
+
+.tri-container img{
+  width: 120px;
+  
 }
 
 footer{
@@ -102,6 +216,7 @@ footer{
     text-align: center;
     background-color: #f0f0f0;
     align-items: center;
+    box-shadow: -1px -5px 20px 5px #8f8f8f;
 }
 
 
@@ -124,6 +239,7 @@ footer{
     max-width: 1000px;
     position: relative;
     margin: auto;
+    box-shadow: 0px 0px 12px 7px #a1a1a1
   }
   
   .mySlides {
@@ -144,7 +260,7 @@ footer{
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    background-color: #b8b8b8;
+    background-color: #8a8a8a;
   }
   
   .next {
@@ -197,6 +313,10 @@ select:invalid{
     color: gray;
 }
 
+option:invalid{
+  color: gray;
+}
+
 option{
     color: black;
 }
@@ -205,12 +325,13 @@ option{
     display: flex;
     justify-content: center;
     text-align: right;
-    margin-bottom: 3em;
+    margin-bottom: 6em;
+    margin-top: 6em;
 }
 
 .form-section1{
     display: grid;
-    gap: 1em;
+    gap: 2em;
 }
 
 .stayDesc-box{
@@ -224,5 +345,21 @@ option{
     text-align:center;
 }
 
+.thankyou-comment{
+  text-align: center;
+  font-size: 18px;
+  padding: 5em;
+  position: relative;
+}
+
+.background-img{
+  background-image: url("bedroom.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 

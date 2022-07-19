@@ -1,0 +1,102 @@
+@media only screen and (min-width: 35em) {
+
+
+    /*--Nav/Header--*/
+    .navigation a {
+        font-size: 18px;  
+    }
+    
+    a.hamburger{
+        font-size: 30px;
+    }
+
+    header{
+        padding: 0px 20px;
+    }
+
+    /*--Main--*/
+    .wrapper{
+        display: grid;
+    }
+
+    .section1-img{
+        width: 70%;
+    }
+
+    .homepage-greeting-1{
+        font-size: 30px;
+    }
+    
+    .homepage-greeting-2{
+        font-size: 24px;
+    }
+        
+   .homepage-reserve{
+        font-size: 18px;
+   }
+
+   .homepage-reserve:hover{
+        transition: .5s;
+        font-size: 20px;
+        background-color: rgb(92, 92, 92);
+   }
+
+   .tri-container{
+        margin-bottom: 5em;
+   }
+
+   .tri-container .box1, .box2, .box3{
+    padding: 50px;
+    margin: 20px;
+
+   }
+
+   .weather-strip{
+    font-size: 16px;
+    gap: 5em;
+   }
+
+   div.temp{
+    font-size: 30px;
+   }
+
+
+   /*--Reservation Page--*/
+   .reservation-form label, input, textarea, select{
+    font-size: 18px;
+  }
+
+  .thankyou-comment{
+    padding: 8em;
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
