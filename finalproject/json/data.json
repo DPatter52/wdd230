@@ -4,9 +4,9 @@
             "templename": "Jordan River Utah Temple",
             "address": "10200 S Temple Drive South Jordan UT 84095-8814 United States",
             "telephone": "(1) 801-254-3003",
-            "services": "Clothing rental available--No cafeteria available--No patron housing avaible--Distribution center nearby",
+            "services": "Clothing rental available\nNo cafeteria available\nNo patron housing avaible\nDistribution center nearby",
             "history": "Milestones: 3 Febuary 1978-Announced 9 June 1979-Groundbreaking 16 November 1981-Dedicated 20 May 2018-Rededication",
-            "templeclosure": "2022\\Saturday, 1 October 2022\\Monday, 31 October 2022 - Monday, 14 November 2022\\Wednesday, 23 November 2022 (Limited Operations)\\Thursday, 24 November 2022\\Saturday, 24 December 2022\\Saturday, 31 December 2022 (Limited Operations)\\2023\\Monday, 8 May 2023 - Monday, 22 May 2023\\Monday, 30 October 2023 - Monday, 13 November 2023",
+            "templeclosure": "2022\nSaturday, 1 October 2022\nMonday, 31 October 2022 - Monday, 14 November 2022\nWednesday, 23 November 2022 (Limited Operations)\nThursday, 24 November 2022\nSaturday, 24 December 2022\nSaturday, 31 December 2022 (Limited Operations)\n2023\nMonday, 8 May 2023 - Monday, 22 May 2023\nMonday, 30 October 2023 - Monday, 13 November 2023",
             "templeicon": "images/jordanriver.jpeg"
         
         },
@@ -14,9 +14,9 @@
             "templename": "Seattle Washington Temple",
             "address": "2808 148th Ave SE Bellevue WA 98007-6453 United States",
             "telephone": "(1) 425-643-5144",
-            "services": "Clothing rental available--No cafeteria available--No patron housing available--Distribution center nearby",
-            "history": "Milesones: 15 November 1975-Announced 27 May 1978-Groundbreaking 17 November 1980-Dedicated",
-            "templeclosure": "2022\\Monday, 8 August 2022 - Monday, 22 August 2022\\Saturday, 1 October 2022\\Wednesday, 23 November 2022 - Thursday, 24 November 2022\\Saturday, 24 December 2022 - Sunday, 25 December 2022\\Saturday, 31 December 2022 - Sunday, 1 January 2023\\2023\\Monday, 20 February 2023 - Monday, 6 March 2023\\Monday, 14 August 2023 - Monday, 28 August 2023",
+            "services": "Clothing rental available\nNo cafeteria available\nNo patron housing available\nDistribution center nearby",
+            "history": "Milesones: 15 November 1975-Announced\n27 May 1978-Groundbreaking 17 November 1980-Dedicated",
+            "templeclosure": "2022\nMonday, 8 August 2022 - Monday, 22 August 2022\nSaturday, 1 October 2022\nWednesday, 23 November 2022 - Thursday, 24 November 2022\nSaturday, 24 December 2022 - Sunday, 25 December 2022\nSaturday, 31 December 2022 - Sunday, 1 January 2023\n2023\nMonday, 20 February 2023 - Monday, 6 March 2023\nMonday, 14 August 2023 - Monday, 28 August 2023",
             "templeicon": "images/seattlewashington.jpeg"   
         
         },
@@ -26,7 +26,7 @@
             "telephone": "(1) 858-622-0991",
             "services": "Clothing rental available\nNo cafeteria available\nNo patron housing available\nDistribution center nearby",
             "history": "Milestones: 7 April 1984-Announced 27 February 1988-Groundbreaking 25 April 1993-Dedicated  ",
-            "templeclosure": "2022\\Saturday, 1 October 2022\\Wednesday, 23 November 2022 - Thursday, 24 November 2022\\Saturday, 24 December 2022\\Saturday, 31 December 2022",
+            "templeclosure": "2022\nSaturday, 1 October 2022\nWednesday, 23 November 2022 - Thursday, 24 November 2022\nSaturday, 24 December 2022\nSaturday, 31 December 2022",
             "templeicon": "images/sandiego.jpeg"     
         
         },
@@ -34,9 +34,9 @@
             "templename": "Mesa Arizona Temple",
             "address": "101 S LeSueur Mesa AZ 85204-1031 United States",
             "telephone": "(1) 480-833-1211",
-            "services": "Clothing rental available--No cafeteria available--No patron housing available--Distribution center nearby",
+            "services": "Clothing rental available\nNo cafeteria available\nNo patron housing available\nDistribution center nearby",
             "history": "Milestones: 1 October 1919-Announced 25 April 1922-Groundbreaking 23 October 1927-Dedicated 15 April 1975-Rededicated 12 December 2021-Rededicated",
-            "templeclosure": "2022\\Monday, 18 July 2022 - Monday, 1 August 2022\\Saturday, 1 October 2022\\Wednesday, 23 November 2022 (Limited Operations)\\Thursday, 24 November 2022\\Saturday, 24 December 2022\\Saturday, 31 December 2022\\2023\\Monday, 27 February 2023 - Monday, 13 March 2023\\Tuesday, 28 March 2023 - Monday, 10 April 2023 (Limited Operations)\\Saturday, 1 April 2023\\Tuesday, 4 July 2023\\Saturday, 30 September 2023\\Monday, 16 October 2023 - Monday, 30 October 2023\\Wednesday, 22 November 2023 (Limited Operations)",
+            "templeclosure": "2022\nMonday, 18 July 2022 - Monday, 1 August 2022\nSaturday, 1 October 2022\nWednesday, 23 November 2022 (Limited Operations)\nThursday, 24 November 2022\nSaturday, 24 December 2022\nSaturday, 31 December 2022\n2023\nMonday, 27 February 2023 - Monday, 13 March 2023\nTuesday, 28 March 2023 - Monday, 10 April 2023 (Limited Operations)\nSaturday, 1 April 2023\nTuesday, 4 July 2023\nSaturday, 30 September 2023\nMonday, 16 October 2023 - Monday, 30 October 2023\nWednesday, 22 November 2023 (Limited Operations)",
             "templeicon": "images/mesa.jpg"    
         
         },
