@@ -71,6 +71,14 @@
     font-size: 20px;
   }
 
+  footer{
+    display: flex;
+    padding: 3em;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+}
+
 
 
 

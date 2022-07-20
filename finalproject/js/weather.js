@@ -1,15 +1,10 @@
-
-// select HTML elements in the document
 const temperature = document.querySelector('.temp');
 const weatherIcon = document.querySelector('.weathericon');
 const captionDesc = document.querySelector('.weathertype');
 const windSpeed = document.querySelector('.windspeed');
 const humidity = document.querySelector('.humidity');
 
-
-
-// create url that stores api 
-const url = `https://api.openweathermap.org/data/2.5/weather?q=bethesda&units=Imperial&appid=27815bec9f6207729f966614a7207170`;
+const url = `https://api.openweathermap.org/data/2.5/onecall?lat=38.9807&lon=-77.1003&units=Imperial&appid=27815bec9f6207729f966614a7207170`;
 
 
 async function apiFetch() {
@@ -18,6 +13,7 @@ async function apiFetch() {
         const data = await response.json();
         
         displayResults(data);
+        console.log(data)
       } else {
           throw Error(await response.text());
       }
@@ -25,21 +21,26 @@ async function apiFetch() {
   
 
 function  displayResults(weatherData) {
-  temperature.innerHTML = `<strong>${weatherData.main.temp.toFixed(1)}° F</strong>`;
-        windSpeed.innerHTML = `Wind Speed: ${weatherData.wind.speed.toFixed(0)}mph`;
-        humidity.innerHTML = `Humidity: ${weatherData.main.humidity}`;
+  temperature.innerHTML = `<strong>${weatherData.current.temp.toFixed(1)}° F</strong>`;
+        windSpeed.innerHTML = `Wind Speed: ${weatherData.current.wind_speed.toFixed(0)}mph`;
+        humidity.innerHTML = `Humidity: ${weatherData.current.humidity}`;
 
 
-  const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-  const desc = weatherData.weather[0].description;
+  const iconsrc = `http://openweathermap.org/img/wn/${weatherData.current.weather[0].icon}.png`;
+  const desc = weatherData.current.weather[0].description;
   const upperDesc = desc.toUpperCase()
 
   
   weatherIcon.setAttribute('src', iconsrc);
   weatherIcon.setAttribute('alt', desc);
   captionDesc.textContent = upperDesc;
+
 }
 
   
 apiFetch();
+
+
+
+
 

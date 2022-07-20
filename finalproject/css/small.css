@@ -78,7 +78,7 @@ a.hamburger{
 
 .greeting-box{
   display: grid;
-  background: lightgrey;
+  background: #f0f0f0;
   gap: 15px;
   padding: 80px;
   box-shadow: 0px 0px 15px 2px #8f8f8f;
@@ -127,7 +127,6 @@ font-size: 14px;
 
 .homepage-reserve:hover{
 transition: .5s;
-
 font-size: 20px;
 background-color: rgb(92, 92, 92);
 }
@@ -175,6 +174,8 @@ div.temp{
 
 .weathericon{
   width: 100px;
+  background: #c2c2c2;
+  border-radius: 15px;
 }
 
 .tri-container{
@@ -199,7 +200,7 @@ div.temp{
  }
 
 .tri-container .box1:hover, .box2:hover, .box3:hover{
-  background-color: lightgrey;
+  background-color: #f0f0f0;
   font-size: larger;
   transition: .2s;
 }
@@ -210,13 +211,24 @@ div.temp{
 }
 
 footer{
-    display: flex;
-    padding: 3em;
-    gap: 3em;
+    display: grid;
+    padding: 20px;
     text-align: center;
     background-color: #f0f0f0;
-    align-items: center;
     box-shadow: 0px -1px 15px 0px #8f8f8f;
+    gap: 15px;
+}
+
+.footer-section1{
+  display: flex;
+  gap: 3em;
+  align-items: center;
+  font-size: 12px;
+}
+
+.footer-section2{
+  color: gray;
+  font-size: 12px;
 }
 
 
@@ -234,6 +246,10 @@ footer{
 
 
 /*--Slide Show Box--*/
+
+.slideshow-title{
+  text-align: center;
+}
 
 .slideshow-container {
     max-width: 1000px;
@@ -277,9 +293,14 @@ footer{
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
+    top: 8px;
     width: 100%;
     text-align: center;
+  }
+
+  .summary{
+    padding: 5px 60px 20px 60px;
+    background-color: #e2e2e2;
   }
   
   .dot {
