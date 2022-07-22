@@ -20,8 +20,6 @@
             "history2": "The Jordan River Utah Temple is one of only five temples featuring an angel Moroni statue holding the gold plates.",
 
             "history3": "The Jordan River Utah Temple was originally named the Jordan River Temple.",
-
-            "templeclosure": "",
            
             "templeicon": "images/jordanriver.jpg"
         
@@ -41,13 +39,11 @@
 
             "distributioncenter": "Distribution center nearby",
 
-            "history1": "",
+            "history1": "The Seattle Washington Temple was the first temple built in the Pacific Northwest (and in the state of Washington).",
 
-            "history2": "",
+            "history2": "During the dedication of the Seattle Washington Temple, a group of women chained themselves to the front gates as a demonstration of their opposition to the Church's position on the Equal Rights Amendment.",
             
-            "history3": "",
-
-            "templeclosure": "",
+            "history3": "The Seattle Washington Temple was the last temple dedicated by President Spencer W. Kimball, whose ailing health prompted him to call Elder Gordon B. Hinckley as a counselor.",
 
             "templeicon": "images/seattlewashington.jpg"   
         
@@ -67,13 +63,11 @@
 
             "distributioncenter": "Distribution center nearby",
 
-            "history1": "",
+            "history1": "The San Diego California Temple was the third temple built in California, following the Los Angeles California Temple (1956) and the Oakland California Temple (1964).",
 
-            "history2": "",
+            "history2": "After suffering a mild heart attack four months earlier, President Ezra Taft Benson made his first trip outside the Salt Lake Valley to break ground for the San Diego California Temple—his first time presiding over a temple groundbreaking.",
             
-            "history3": "",
-
-            "templeclosure": "",
+            "history3": "The San Diego California Temple was honored as Headliner of the Year for 1993 in the landmark category by the San Diego Press Club.",
             
             "templeicon": "images/sandiego.jpg"     
         
@@ -93,13 +87,11 @@
 
             "distributioncenter": "Distribution center nearby",
             
-            "history1": "",
+            "history1": "The Mesa Arizona Temple was the first temple built in Arizona.",
 
-            "history2": "",
+            "history2": "The Mesa Arizona Temple was the first temple to present the endowment in a language other than English.",
             
-            "history3": "",
-            
-            "templeclosure": "",
+            "history3": "For many years, the Mesa Arizona Temple was known as the \"Lamanite Temple,\" as it was the destination of annual temple excursions for Hispanic and Native American members of the Church, especially the Mexican Saints.",
             
             "templeicon": "images/mesa.jpg"    
         
@@ -119,13 +111,11 @@
 
             "distributioncenter": "Distribution center nearby",
             
-            "history1": "",
+            "history1": "The Rome Italy Temple was the thirteenth temple built on the continent of Europe and the first built in the country of Italy.",
 
-            "history2": "",
+            "history2": "The Rome Italy Temple was built on the site of an Italian villetta, which had served for a time as an apartment for full-time missionaries.",
             
-            "history3": "",
-            
-            "templeclosure": "",
+            "history3": "The visitors' center at the Rome Italy Temple features reproductions of Bertel Thorvaldsen's Christus statue and the twelve apostles. ",
             
             "templeicon": "images/rome.png"   
         
@@ -145,14 +135,12 @@
 
             "distributioncenter": "No distribution center nearby",
 
-            "history1": "",
+            "history1": "The Anchorage Alaska Temple was the first temple built in Alaska.",
 
-            "history2": "",
+            "history2": "Before the dedication of the Anchorage Alaska Temple, Alaskans traveled at least 1,000 miles to attend the Seattle Washington Temple or the Cardston Alberta Temple.",
             
-            "history3": "",
+            "history3": "During its short 2½-day open house, the Anchorage Alaska Temple saw 14,131 visitors tour its interior prior to dedication.",
 
-            "templeclosure": "",
-           
             "templeicon": "images/anchorage.jpg"  
         
         },
@@ -171,14 +159,12 @@
 
             "distributioncenter": "Distribution center nearby",
 
-            "history1": "",
+            "history1": "The Hong Kong China Temple was the first temple built in China and the second built in mainland Asia, following the Seoul Korea Temple (1985).",
 
-            "history2": "",
+            "history2": "The Hong Kong China Temple is the only temple that opens each quarter on Sunday to accommodate members, mostly Filipino sisters, who are employed as domestic workers six days a week.",
             
-            "history3": "",
-            
-            "templeclosure": "N/A",
-            
+            "history3": "The Hong Kong China Temple is the only temple to have had a spire and angel Moroni statue permanently removed as part of a renovation.",
+
             "templeicon": "images/hongkong.jpg"  
         
         },
@@ -197,14 +183,12 @@
 
             "distributioncenter": "No distribution center nearby",
             
-            "history1": "",
+            "history1": "The Baton Rouge Louisiana Temple was the first temple built in Louisiana.",
 
-            "history2": "",
+            "history2": "The Baton Rouge Louisiana Temple was dedicated in four sessions by President Gordon B. Hinckley. Over 4,600 members attended the sacred services. ",
             
-            "history3": "",
-            
-            "templeclosure": "",
-            
+            "history3": "Over 18,500 guests attended the weeklong open house for the Baton Rouge Louisiana Temple including government officials, religious and community leaders, media representatives, 125 neighbors, and friends of other faiths who patronized the local family history centers.",
+
             "templeicon": "images/batonrouge.jpg" 
         
         }
