@@ -381,16 +381,6 @@ option{
   position: relative;
 }
 
-.background-img{
-  background-image: url("bedroom.jpg");
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /*--Temples page--*/
 
 .temples-title{
@@ -475,3 +465,63 @@ option{
 .link-bar a:hover{
   color: white;
 }
+
+/*--Full-Time Missionary Page--*/
+
+.suites-banner-img{
+  object-fit: cover;
+  filter:blur(1.5px);
+  width: 100%;
+}
+
+.suites-banner{
+  text-align: center;
+}
+
+.suites-banner-title{
+  position: absolute;
+  top: 225px;
+  right: 120px;
+  font-size: 45px;
+  padding: 50px;
+  background: #ffffffa1;
+  width: 100%;
+}
+
+.suites-banner-desc{
+  padding: 20px;
+  background-color: #eeeeee;
+  font-size: 12px;
+  color: #878787;
+}
+
+.suites-form-full{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+
+}
+
+.suites-form{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 100px 30px 100px;
+  border: 1px solid #7e7e7e;
+  border-radius: 5px;
+  gap: 5px;
+}
+
+.suites-form h2{
+  margin: initial;
+  font-size: 28px;
+}
+
+.suites-form-title{
+  margin-bottom: 20px;
+  text-align: center;
+  background: lightgray;
+  padding: 15px;
+  border-radius: 5px
+}
+
+
