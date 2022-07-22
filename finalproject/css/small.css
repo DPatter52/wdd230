@@ -405,27 +405,26 @@ option{
 
 .grid section{
   display: grid;
-  justify-items: center;
   padding: 50px;
   box-shadow: 0px 0px 20px;
   gap: 1em;
-  border: 5px solid lightgray;
-  align-content: space-evenly;
 }
 
 .grid p:nth-child(odd){
   background-color: lightgray;
 }
 
-.grid section>p1, p2, p3, p4, p5{
+.grid section>p1, p2, p3, p4, p5, p6, p7, p8, p9, p10{
   font-size: 14px;
   width: fit-content;
+  display: list-item;
 }
 
 .grid section>img{
   transition: filter 1.5s;
   transition: .5s;
   padding: 15px;
+  justify-self: center;
 }
 
 .grid section>img:hover{
